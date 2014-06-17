@@ -1,0 +1,350 @@
+Array
+(
+    [0] => Array
+        (
+            [tag] => DATA
+            [type] => open
+            [level] => 1
+            [value] => 
+  
+        )
+
+    [1] => Array
+        (
+            [tag] => TREE_DIALOG2
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 12638464
+                )
+
+            [value] => Complete
+        )
+
+    [2] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [3] => Array
+        (
+            [tag] => USER
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 12638720
+                    [ALTTEXT] => Answerer
+                    [DESCRIPTION] => On whos behalf are you answering
+                    [YOUTEXT] => On whos behalf are you answering
+                )
+
+            [value] => Other
+        )
+
+    [4] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [5] => Array
+        (
+            [tag] => IND0000HWOLDISTHPTNT
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 12596736
+                    [ALTTEXT] => Years old
+                    [DESCRIPTION] => How many years old is the patient (enter 0 if less than 1)
+                    [YOUTEXT] => How many years old are you
+                )
+
+            [value] => 56
+        )
+
+    [6] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [7] => Array
+        (
+            [tag] => TREE_DIALOG1
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 12637184
+                )
+
+            [value] => Complete
+        )
+
+    [8] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [9] => Array
+        (
+            [tag] => IND0113ISHVNGINDGSTNANUNC
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 12623616
+                    [DESCRIPTION] => Is having indigestion an uncommon problem for the patient
+                    [SIGFLAG] => true
+                    [YOUTEXT] => Is having indigestion a common problem for you
+                    [LISTDESC] => yes it is uncommon
+                )
+
+            [value] => V_114
+        )
+
+    [10] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [11] => Array
+        (
+            [tag] => IND0152DSTHPTNTFLDZZYO
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 12625920
+                    [ALTTEXT] => Dizzy or Faint
+                    [DESCRIPTION] => Does the patient feel dizzy or faint
+                    [SIGFLAG] => true
+                    [YOUTEXT] => Do you feel dizzy or faint
+                    [LISTDESC] => no
+                )
+
+            [value] => V_154
+        )
+
+    [12] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [13] => Array
+        (
+            [tag] => INSTANCES
+            [type] => open
+            [level] => 2
+            [attributes] => Array
+                (
+                    [DLGID] => 1
+                )
+
+            [value] => 
+    
+        )
+
+    [14] => Array
+        (
+            [tag] => INSTANCE
+            [type] => open
+            [level] => 3
+            [attributes] => Array
+                (
+                    [DLG] => Dialog2
+                    [DESCRIPTION] => treatment details
+                    [SUB] => Tree_Dialog3
+                )
+
+            [value] => 
+      
+        )
+
+    [15] => Array
+        (
+            [tag] => TREE_DIALOG3
+            [type] => complete
+            [level] => 4
+            [attributes] => Array
+                (
+                    [UID] => 12640512
+                )
+
+            [value] => Complete
+        )
+
+    [16] => Array
+        (
+            [tag] => INSTANCE
+            [value] => 
+      
+            [type] => cdata
+            [level] => 3
+        )
+
+    [17] => Array
+        (
+            [tag] => IND0281HSANYADVCBNOBTND
+            [type] => complete
+            [level] => 4
+            [attributes] => Array
+                (
+                    [UID] => 12633856
+                    [DESCRIPTION] => Health professional
+                    [LISTDESC] => GP or Nurse Practitioner in general practice
+                )
+
+            [value] => V_283
+        )
+
+    [18] => Array
+        (
+            [tag] => INSTANCE
+            [value] => 
+      
+            [type] => cdata
+            [level] => 3
+        )
+
+    [19] => Array
+        (
+            [tag] => IND0288WHNWSTHS
+            [type] => complete
+            [level] => 4
+            [attributes] => Array
+                (
+                    [UID] => 12634112
+                    [ALTTEXT] => When
+                    [DESCRIPTION] => When was this
+                    [LISTDESC] => 3 days ago
+                )
+
+            [value] => V_291
+        )
+
+    [20] => Array
+        (
+            [tag] => INSTANCE
+            [value] => 
+      
+            [type] => cdata
+            [level] => 3
+        )
+
+    [21] => Array
+        (
+            [tag] => IND0296PLSTCKANYTRTMNTW
+            [type] => complete
+            [level] => 4
+            [attributes] => Array
+                (
+                    [UID] => 12634368
+                    [ALTTEXT] => Treatment
+                    [DESCRIPTION] => Please tick any treatment was given or advised (tick all that apply)
+                    [LISTDESC] => Ranitidine or Cimetidine
+                )
+
+            [value] => V_298
+        )
+
+    [22] => Array
+        (
+            [tag] => INSTANCE
+            [value] => 
+    
+            [type] => cdata
+            [level] => 3
+        )
+
+    [23] => Array
+        (
+            [tag] => INSTANCE
+            [type] => close
+            [level] => 3
+        )
+
+    [24] => Array
+        (
+            [tag] => INSTANCES
+            [value] => 
+  
+            [type] => cdata
+            [level] => 2
+        )
+
+    [25] => Array
+        (
+            [tag] => INSTANCES
+            [type] => close
+            [level] => 2
+        )
+
+    [26] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [27] => Array
+        (
+            [tag] => IND0012WHRABTSISYRRSH
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 12639488
+                    [ALTTEXT] => Rash location
+                    [DESCRIPTION] => Where abouts is your rash
+                    [SIGFLAG] => true
+                    [LISTDESC] => upper abdomen right outer
+                )
+
+            [value] => H_66
+        )
+
+    [28] => Array
+        (
+            [tag] => DATA
+            [value] => 
+
+            [type] => cdata
+            [level] => 1
+        )
+
+    [29] => Array
+        (
+            [tag] => DATA
+            [type] => close
+            [level] => 1
+        )
+
+)

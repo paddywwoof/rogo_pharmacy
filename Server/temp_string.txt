@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<data>
+  <Tree_Dialog2 uid="12638464">Complete</Tree_Dialog2>
+  <User uid="12638720" alttext="Answerer" description="On whos behalf are you answering" youtext="On whos behalf are you answering">Other</User>
+  <Ind0000HwOldIsThPtnt uid="12596736" alttext="Years old" description="How many years old is the patient (enter 0 if less than 1)" youtext="How many years old are you">56</Ind0000HwOldIsThPtnt>
+  <Tree_Dialog1 uid="12637184">Complete</Tree_Dialog1>
+  <Ind0113IsHvngIndgstnAnUnc uid="12623616" description="Is having indigestion an uncommon problem for the patient" sigflag="true" youtext="Is having indigestion a common problem for you" listDesc="yes it is uncommon">V_114</Ind0113IsHvngIndgstnAnUnc>
+  <Ind0152DsThPtntFlDzzyO uid="12625920" alttext="Dizzy or Faint" description="Does the patient feel dizzy or faint" sigflag="true" youtext="Do you feel dizzy or faint" listDesc="no">V_154</Ind0152DsThPtntFlDzzyO>
+  <instances dlgid="1">
+    <instance dlg="Dialog2" description="treatment details" sub="Tree_Dialog3">
+      <Tree_Dialog3 uid="12640512">Complete</Tree_Dialog3>
+      <Ind0281HsAnyAdvcBnObtnd uid="12633856" description="Health professional" listDesc="GP or Nurse Practitioner in general practice">V_283</Ind0281HsAnyAdvcBnObtnd>
+      <Ind0288WhnWsThs uid="12634112" alttext="When" description="When was this" listDesc="3 days ago">V_291</Ind0288WhnWsThs>
+      <Ind0296PlsTckAnyTrtmntW uid="12634368" alttext="Treatment" description="Please tick any treatment was given or advised (tick all that apply)" listDesc="Ranitidine or Cimetidine">V_298</Ind0296PlsTckAnyTrtmntW>
+    </instance>
+  </instances>
+  <Ind0012WhrAbtsIsYrRsh uid="12639488" alttext="Rash location" description="Where abouts is your rash" sigflag="true" listDesc="upper abdomen right outer">H_66</Ind0012WhrAbtsIsYrRsh>
+</data>
