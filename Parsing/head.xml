@@ -1,0 +1,3695 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xra name="zero_km" description="Knowledge Module (TD) Template" exporttime="20140213093837">
+  <system>
+    <editorversion>10.2.0.33</editorversion>
+    <createdBy><![CDATA[User]]></createdBy>
+    <createdOn><![CDATA[2014-02-11 17:25:59]]></createdOn>
+    <lastModifiedBy><![CDATA[User]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2014-02-11 17:25:59]]></lastModifiedOn>
+    <closeconfirmationtext><![CDATA[Close Application?]]></closeconfirmationtext>
+    <commandinference>false</commandinference>
+    <debugmode>Standard</debugmode>
+    <deployusedobjects>false</deployusedobjects>
+    <incompletecolor>clBlue#0000FF</incompletecolor>
+    <invalidcolor>clRed#FF0000</invalidcolor>
+    <mobiledesigner>false</mobiledesigner>
+    <raiseunassignederrors>true</raiseunassignederrors>
+    <showcloseconfirmation>true</showcloseconfirmation>
+    <showlastselectionmarkers>true</showlastselectionmarkers>
+    <silentodbcconnections>false</silentodbcconnections>
+    <singlejavascript>true</singlejavascript>
+    <suppresswysiwyg>false</suppresswysiwyg>
+    <tokenizecommands>false</tokenizecommands>
+    <troubleshootgrouping>0</troubleshootgrouping>
+    <usedialoghtmlpages>true</usedialoghtmlpages>
+    <usemaxnumericprecision>false</usemaxnumericprecision>
+    <usetreemarkers>true</usetreemarkers>
+    <versioninfo><![CDATA[1,0,0,0]]></versioninfo>
+    <windowbackgroundcolor>clWhite#FFFFFF</windowbackgroundcolor>
+    <startobject>Main_Flow</startobject>
+  </system>
+  <mainagenda>
+    <language>xr</language>
+    <agenda>
+      <![CDATA[]]>
+    </agenda>
+  </mainagenda>
+  <item name="Numeric_Attribute" type="numeric" category="" parentobj="" hastree="false" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="false" readonly="false" />
+      <Default description="Default value" hidden="false" readonly="false" />
+      <Knowledge description="Knowledge representation" hidden="false" readonly="false" />
+      <Inference description="Inference properties" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+          <value><![CDATA[Empty]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <decPlaces group="Format" type="integer">0</decPlaces>
+      <default group="Default" type="float" decplaces="0">0</default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">false</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <maxValue group="Display" type="float" decplaces="0">0</maxValue>
+      <minValue group="Display" type="float" decplaces="0">0</minValue>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <tiedDialog group="Display" type="tied">Numeric_Attribute_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+        </enums>
+        <value><![CDATA[Yes]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+  </item>
+  <item name="Decision_Tree" type="list" category="" parentobj="" multiselect="false" hastree="true" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="false" readonly="false" />
+      <Default description="Default value" hidden="true" readonly="true" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="true" readonly="true" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <multiSelect group="Format" type="boolean">false</multiSelect>
+      <default group="Default" type="string" length="100"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <allowSolutions group="Knowledge" type="boolean">false</allowSolutions>
+      <caseSolutionBase group="Knowledge" type="tied"></caseSolutionBase>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">false</hasEvents>
+      <hasTree group="Knowledge" type="boolean">true</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[Tree]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">true</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied"></tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">false</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="0"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Decision displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="false" translate="false" flags="system" trawlexport="false" length="40" />
+      <vDescription type="string" displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="false" exposedout="false" translate="false" flags="" trawlexport="false" length="250" />
+    </valueprops>
+  </item>
+  <item name="Numeric_Decision_Tree" type="numeric" category="" parentobj="" hastree="true" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="false" readonly="false" />
+      <Default description="Default value" hidden="true" readonly="true" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="true" readonly="true" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="false" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <decPlaces group="Format" type="integer">0</decPlaces>
+      <default group="Default" type="float" decplaces="0">0</default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">false</hasEvents>
+      <hasTree group="Knowledge" type="boolean">true</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[Tree]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">true</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <maxValue group="Display" type="float" decplaces="0">0</maxValue>
+      <minValue group="Display" type="float" decplaces="0">0</minValue>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <tiedDialog group="Display" type="tied"></tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+        </enums>
+        <value><![CDATA[Yes]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="0"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+  </item>
+  <item name="Decision_Cases" type="list" category="" parentobj="" multiselect="false" hastree="false" hascases="true" >
+    <groups>
+      <Format description="Format information" hidden="false" readonly="false" />
+      <Default description="Default value" hidden="true" readonly="true" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="true" readonly="true" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <multiSelect group="Format" type="boolean">false</multiSelect>
+      <default group="Default" type="string" length="100"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <allowSolutions group="Knowledge" type="boolean">false</allowSolutions>
+      <caseSolutionBase group="Knowledge" type="tied"></caseSolutionBase>
+      <hasCases group="Knowledge" type="boolean">true</hasCases>
+      <hasEvents group="Knowledge" type="boolean">false</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[Cases]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">true</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied"></tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">false</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="0"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Decision displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="false" translate="false" flags="system" trawlexport="false" length="40" />
+      <vDescription type="string" displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="false" exposedout="false" translate="false" flags="" trawlexport="false" length="250" />
+    </valueprops>
+  </item>
+  <item name="Decision_Rules" type="list" category="" parentobj="" multiselect="true" hastree="false" hascases="true" >
+    <groups>
+      <Format description="Format information" hidden="true" readonly="true" />
+      <Default description="Default value" hidden="true" readonly="true" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="true" readonly="true" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <multiSelect group="Format" type="boolean">true</multiSelect>
+      <default group="Default" type="string" length="100"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <allowSolutions group="Knowledge" type="boolean">false</allowSolutions>
+      <caseSolutionBase group="Knowledge" type="tied"></caseSolutionBase>
+      <hasCases group="Knowledge" type="boolean">true</hasCases>
+      <hasEvents group="Knowledge" type="boolean">false</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[Cases]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">true</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied"></tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">true</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="0"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Decision displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="false" translate="false" flags="system" trawlexport="false" length="40" />
+      <vDescription type="string" displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="false" exposedout="false" translate="false" flags="" trawlexport="false" length="250" />
+    </valueprops>
+  </item>
+  <item name="Boolean_Attribute" type="boolean" category="" parentobj="" hastree="false" hascases="false" >
+    <groups>
+      <Default description="Default value" hidden="false" readonly="false" />
+      <Knowledge description="Knowledge representation" hidden="false" readonly="false" />
+      <Inference description="Inference properties" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="true" readonly="false" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <question group="" type="string" length="255"></question>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+          <value><![CDATA[Empty]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <default group="Default" type="boolean">true</default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasPolicyRules group="Knowledge" type="boolean">false</hasPolicyRules>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">false</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied">Boolean_Attribute_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">false</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Value displayno="-1" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="false" translate="false" flags="system" trawlexport="false" length="40" />
+      <vDescription type="string" displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="false" exposedout="false" translate="false" flags="" trawlexport="false" length="250" />
+      <values>
+        <item>
+          <name><![CDATA[Yes]]></name>
+          <vDescription></vDescription>
+        </item>
+        <item>
+          <name><![CDATA[No]]></name>
+          <vDescription></vDescription>
+        </item>
+      </values>
+    </valueprops>
+  </item>
+  <item name="Control_Tree" type="list" category="" parentobj="" multiselect="false" hastree="true" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="true" readonly="true" />
+      <Default description="Default value" hidden="true" readonly="true" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <Display description="Display properties" hidden="true" readonly="true" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="true" readonly="false" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+          <value><![CDATA[Empty]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <multiSelect group="Format" type="boolean">false</multiSelect>
+      <default group="Default" type="string" length="100"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <allowSolutions group="Knowledge" type="boolean">false</allowSolutions>
+      <caseSolutionBase group="Knowledge" type="tied"></caseSolutionBase>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">false</hasEvents>
+      <hasTree group="Knowledge" type="boolean">true</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[Tree]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">true</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied"></tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">false</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Task displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="false" translate="false" flags="system" trawlexport="false" length="40" />
+      <vDescription type="string" displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="false" exposedout="false" translate="false" flags="" trawlexport="false" length="250" />
+      <values>
+        <item>
+          <name><![CDATA[Done]]></name>
+          <vDescription></vDescription>
+        </item>
+      </values>
+    </valueprops>
+  </item>
+  <item name="Date_Attribute" type="date" category="" parentobj="" hastree="false" hascases="false" >
+    <groups>
+      <Default description="Default value" hidden="false" readonly="false" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+          <value><![CDATA[Empty]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <default group="Default" type="date">20001120</default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">false</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <maxValue group="Display" type="date">20080909</maxValue>
+      <minValue group="Display" type="date">20080909</minValue>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <tiedDialog group="Display" type="tied">Date_Attribute_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+        </enums>
+        <value><![CDATA[Yes]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+  </item>
+  <item name="List_Attribute" type="list" category="" parentobj="" multiselect="false" hastree="false" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="false" readonly="false" />
+      <Default description="Default value" hidden="false" readonly="false" />
+      <Knowledge description="Knowledge representation" hidden="false" readonly="false" />
+      <Inference description="Inference properties" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="false" readonly="false" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="true" readonly="false" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+          <value><![CDATA[Empty]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <multiSelect group="Format" type="boolean">false</multiSelect>
+      <default group="Default" type="string" length="100"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <allowSolutions group="Knowledge" type="boolean">false</allowSolutions>
+      <caseSolutionBase group="Knowledge" type="tied"></caseSolutionBase>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">false</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied">List_Attribute_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">false</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Value displayno="-1" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="false" translate="false" flags="system" trawlexport="false" length="40" />
+      <vDescription type="string" displayno="-1" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="false" exposedout="false" translate="false" flags="" trawlexport="false" length="250" />
+    </valueprops>
+  </item>
+  <item name="Boolean_Decision_Tree" type="boolean" category="" parentobj="" hastree="true" hascases="false" >
+    <groups>
+      <Default description="Default value" hidden="true" readonly="true" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="true" readonly="true" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <default group="Default" type="boolean">true</default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">false</hasEvents>
+      <hasPolicyRules group="Knowledge" type="boolean">false</hasPolicyRules>
+      <hasTree group="Knowledge" type="boolean">true</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[Tree]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">true</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied"></tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">false</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="0"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Value displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="false" translate="false" flags="system" trawlexport="false" length="40" />
+      <vDescription type="string" displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="false" exposedout="false" translate="false" flags="" trawlexport="false" length="250" />
+      <values>
+        <item>
+          <name><![CDATA[Yes]]></name>
+          <vDescription></vDescription>
+        </item>
+        <item>
+          <name><![CDATA[No]]></name>
+          <vDescription></vDescription>
+        </item>
+      </values>
+    </valueprops>
+  </item>
+  <item name="Date_Decision_Tree" type="date" category="" parentobj="" hastree="true" hascases="false" >
+    <groups>
+      <Default description="Default value" hidden="true" readonly="true" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="true" readonly="true" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <default group="Default" type="date">20090126</default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">false</hasEvents>
+      <hasTree group="Knowledge" type="boolean">true</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[Tree]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">true</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <maxValue group="Display" type="date">20090126</maxValue>
+      <minValue group="Display" type="date">20090126</minValue>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <tiedDialog group="Display" type="tied"></tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+        </enums>
+        <value><![CDATA[Yes]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="0"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+  </item>
+  <item name="Numeric_Cases" type="numeric" category="" parentobj="" hastree="false" hascases="true" >
+    <groups>
+      <Format description="Format information" hidden="false" readonly="false" />
+      <Default description="Default value" hidden="true" readonly="true" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="true" readonly="true" />
+      <Hierarchy description="Hierarchy properties" hidden="false" readonly="false" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <decPlaces group="Format" type="integer">0</decPlaces>
+      <default group="Default" type="float" decplaces="0">0</default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">true</hasCases>
+      <hasEvents group="Knowledge" type="boolean">false</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[Cases]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">true</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <maxValue group="Display" type="float" decplaces="0">0</maxValue>
+      <minValue group="Display" type="float" decplaces="0">0</minValue>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <tiedDialog group="Display" type="tied"></tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+        </enums>
+        <value><![CDATA[Yes]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="0"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+  </item>
+  <item name="Decision_Flow" type="category" img="category_images\cat1.png">
+    <description><![CDATA[
+]]></description>
+    <createdBy><![CDATA[Admin]]></createdBy>
+    <createdOn><![CDATA[2000-12-08 15:11:03]]></createdOn>
+    <lastModifiedBy><![CDATA[Admin]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2000-12-08 15:37:28]]></lastModifiedOn>
+    <allow>
+      <Control_Tree />
+    </allow>
+  </item>
+  <item name="Attributes" type="category" img="category_images\cat2.png">
+    <createdBy><![CDATA[Admin]]></createdBy>
+    <createdOn><![CDATA[2000-04-18 16:22:21]]></createdOn>
+    <lastModifiedBy><![CDATA[Admin]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2000-04-18 16:22:39]]></lastModifiedOn>
+    <allow>
+      <Numeric_Attribute />
+      <Boolean_Attribute />
+      <Date_Attribute />
+      <List_Attribute />
+      <Text_Attribute />
+      <Extendable_Boolean_Attribute />
+    </allow>
+  </item>
+  <item name="Decision_Trees" type="category" img="category_images\cat3.png">
+    <createdBy><![CDATA[Admin]]></createdBy>
+    <createdOn><![CDATA[2008-12-10 14:42:37]]></createdOn>
+    <lastModifiedBy><![CDATA[Admin]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2008-12-10 14:42:37]]></lastModifiedOn>
+    <allow>
+      <Decision_Tree />
+      <Numeric_Decision_Tree />
+      <Boolean_Decision_Tree />
+      <Date_Decision_Tree />
+      <Text_Decision_Tree />
+    </allow>
+  </item>
+  <item name="Procedures" type="category" img="category_images\cat4.png">
+    <createdBy><![CDATA[Admin]]></createdBy>
+    <createdOn><![CDATA[2000-04-18 16:09:34]]></createdOn>
+    <lastModifiedBy><![CDATA[Admin]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2000-04-18 16:09:51]]></lastModifiedOn>
+    <allow>
+      <_procedures />
+    </allow>
+  </item>
+  <item name="Cases" type="category" img="category_images\cat5.png">
+    <createdBy><![CDATA[Admin]]></createdBy>
+    <createdOn><![CDATA[2008-12-10 15:25:40]]></createdOn>
+    <lastModifiedBy><![CDATA[Admin]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2009-01-20 14:12:01]]></lastModifiedOn>
+    <allow>
+      <Decision_Cases />
+      <Numeric_Cases />
+    </allow>
+  </item>
+  <item name="Dialogs" type="category" img="category_images\cat6.png">
+    <createdBy><![CDATA[Admin]]></createdBy>
+    <createdOn><![CDATA[2000-04-18 16:08:57]]></createdOn>
+    <lastModifiedBy><![CDATA[User]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2011-02-09 10:29:40]]></lastModifiedOn>
+    <allow>
+      <_dialogs />
+    </allow>
+  </item>
+  <item name="Default_Dialogs" type="category" img="category_images\cat7.png">
+    <createdBy><![CDATA[Admin]]></createdBy>
+    <createdOn><![CDATA[2000-04-18 16:08:57]]></createdOn>
+    <lastModifiedBy><![CDATA[User]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2011-02-09 10:29:04]]></lastModifiedOn>
+    <allow>
+      <_dialogs />
+    </allow>
+  </item>
+  <item name="Tree_Dialogs" type="category" img="category_images\cat8.png">
+    <createdBy><![CDATA[User]]></createdBy>
+    <createdOn><![CDATA[2011-11-23 10:06:04]]></createdOn>
+    <lastModifiedBy><![CDATA[User]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2011-11-23 10:06:04]]></lastModifiedOn>
+    <allow>
+      <Tree_Dialog />
+    </allow>
+  </item>
+  <item name="Main_Flow" type="list" category="Decision_Flow" parentobj="Control_Tree" multiselect="false" hastree="true" hascases="false" >
+    <valueprops>
+      <values>
+        <item>
+          <name><![CDATA[End]]></name>
+          <vDescription></vDescription>
+        </item>
+      </values>
+    </valueprops>
+    <tree>
+      <node type="split" object="Default_Report">
+        <split type="all">
+          <node type="leaf">
+            <value freq="0"><![CDATA[End]]></value>
+          </node>
+        </split>
+      </node>
+    </tree>
+  </item>
+  <item name="Tree_Dialog_Questions" type="category" img="category_images\cat9.png">
+    <createdBy><![CDATA[User]]></createdBy>
+    <createdOn><![CDATA[2011-11-23 10:47:34]]></createdOn>
+    <lastModifiedBy><![CDATA[User]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2011-11-23 10:47:34]]></lastModifiedOn>
+    <allow>
+      <List_TD_Question />
+      <Numeric_TD_Question />
+      <Boolean_TD_Question />
+      <Date_TD_Question />
+      <Text_TD_Question />
+    </allow>
+  </item>
+  <item name="Text_Attribute" type="text" category="" parentobj="" hastree="false" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="false" readonly="false" />
+      <Default description="Default value" hidden="false" readonly="false" />
+      <Knowledge description="Knowledge representation" hidden="false" readonly="false" />
+      <Inference description="Inference properties" hidden="false" readonly="false" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <length group="Format" type="integer">0</length>
+      <default group="Default" type="string" length="255"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">false</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <inputMask group="Display" type="string" length="80"></inputMask>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isPassword group="Display" type="boolean">false</isPassword>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <multiLine group="Display" type="boolean">false</multiLine>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <tiedDialog group="Display" type="tied">Text_Attribute_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+        </enums>
+        <value><![CDATA[Yes]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+  </item>
+  <item name="Text_Decision_Tree" type="text" category="" parentobj="" hastree="true" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="false" readonly="false" />
+      <Default description="Default value" hidden="true" readonly="true" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="true" readonly="true" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <length group="Format" type="integer">100</length>
+      <default group="Default" type="string" length="255"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">false</hasEvents>
+      <hasTree group="Knowledge" type="boolean">true</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[Tree]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">true</isDynamic>
+      <isLookAheadBreak group="Inference" type="boolean">false</isLookAheadBreak>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <inputMask group="Display" type="string" length="80"></inputMask>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isPassword group="Display" type="boolean">false</isPassword>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <multiLine group="Display" type="boolean">false</multiLine>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <tiedDialog group="Display" type="tied"></tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+        </enums>
+        <value><![CDATA[Yes]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+  </item>
+  <item name="Default_Tree_Dialogs" type="category" img="category_images\cat10.png">
+    <createdBy><![CDATA[User]]></createdBy>
+    <createdOn><![CDATA[2011-11-23 10:28:48]]></createdOn>
+    <lastModifiedBy><![CDATA[User]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2011-11-23 10:28:48]]></lastModifiedOn>
+    <allow>
+      <_dialogs />
+    </allow>
+  </item>
+  <item name="Action_Report" type="list" category="" parentobj="" multiselect="false" hastree="false" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="true" readonly="true" />
+      <Default description="Default value" hidden="true" readonly="true" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="false" readonly="false" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="true" readonly="true" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <Message1 group="" type="string" userdefined="true"  length="1000"></Message1>
+      <Message2 group="" type="string" userdefined="true"  length="1000"></Message2>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <multiSelect group="Format" type="boolean">false</multiSelect>
+      <default group="Default" type="string" length="100"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <allowSolutions group="Knowledge" type="boolean">false</allowSolutions>
+      <caseSolutionBase group="Knowledge" type="tied"></caseSolutionBase>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">true</isDynamic>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">true</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied">Action_Report_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">false</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Outcome displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="false" translate="false" flags="system" trawlexport="false" length="40" />
+      <values>
+        <item>
+          <name><![CDATA[Done]]></name>
+        </item>
+      </values>
+    </valueprops>
+    <events>
+      <OnLeave language="xr">
+        <![CDATA[
+@REM This code is executed when the Object has obtained a value in tree inference
+@Assign Self = Self.Outcome[1]
+          ]]>
+      </OnLeave>
+    </events>
+  </item>
+  <item name="Default_Report" type="list" category="Action_Reports" parentobj="Action_Report" multiselect="false" hastree="false" hascases="false" >
+    <flatprops>
+      <description length="255"><![CDATA[Knowledge Builder Default Report ]]></description>
+      <Message1 userdefined="true"  length="1000"><![CDATA[Delete this Report Object <b>Default_Report</b> from within the Tree Object <b>Main_Flow</b> and add the logic flow of your application.]]></Message1>
+    </flatprops>
+    <valueprops>
+      <values>
+        <item>
+          <name><![CDATA[Done]]></name>
+        </item>
+      </values>
+    </valueprops>
+    <events>
+      <OnLeave language="xr">
+        <![CDATA[
+@REM This code is executed when the Object has obtained a value in tree inference
+@Assign Self = Self.Outcome[1]
+          ]]>
+      </OnLeave>
+    </events>
+  </item>
+  <item name="Extendable_Boolean_Attribute" type="list" category="" parentobj="" multiselect="false" hastree="false" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="true" readonly="true" />
+      <Default description="Default value" hidden="false" readonly="false" />
+      <Knowledge description="Knowledge representation" hidden="false" readonly="false" />
+      <Inference description="Inference properties" hidden="false" readonly="false" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="false" readonly="false" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <multiSelect group="Format" type="boolean">false</multiSelect>
+      <default group="Default" type="string" length="100"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <allowSolutions group="Knowledge" type="boolean">false</allowSolutions>
+      <caseSolutionBase group="Knowledge" type="tied"></caseSolutionBase>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">false</isDynamic>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied">Boolean_Attribute_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">false</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Value displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="false" translate="false" flags="system" trawlexport="false" length="40" />
+      <vDescription type="string" displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="false" exposedout="false" translate="false" flags="" trawlexport="false" length="100" />
+      <values>
+        <item>
+          <name><![CDATA[Yes]]></name>
+          <vDescription></vDescription>
+        </item>
+        <item>
+          <name><![CDATA[No]]></name>
+          <vDescription></vDescription>
+        </item>
+      </values>
+    </valueprops>
+  </item>
+  <item name="Action_Reports" type="category" img="category_images\cat11.png">
+    <createdBy><![CDATA[User]]></createdBy>
+    <createdOn><![CDATA[2011-06-29 16:10:31]]></createdOn>
+    <lastModifiedBy><![CDATA[User]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2011-06-29 16:10:31]]></lastModifiedOn>
+    <allow>
+      <Action_Report />
+    </allow>
+  </item>
+  <item name="Tree_Dialog" type="list" category="" parentobj="" multiselect="false" hastree="true" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="true" readonly="true" />
+      <Default description="Default value" hidden="true" readonly="true" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="true" readonly="true" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="false" readonly="false" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <multiSelect group="Format" type="boolean">false</multiSelect>
+      <default group="Default" type="string" length="100"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <allowSolutions group="Knowledge" type="boolean">false</allowSolutions>
+      <caseSolutionBase group="Knowledge" type="tied"></caseSolutionBase>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasTree group="Knowledge" type="boolean">true</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[Tree]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">true</isDynamic>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Tree Dialog]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied">Master_TD_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">false</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Status displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="false" translate="false" flags="system" trawlexport="false" length="40" />
+      <values>
+        <item>
+          <name><![CDATA[Complete]]></name>
+        </item>
+      </values>
+    </valueprops>
+  </item>
+  <item name="Variables" type="category" img="category_images\cat12.png">
+    <createdBy><![CDATA[System]]></createdBy>
+    <createdOn><![CDATA[2000-04-17 09:16:03]]></createdOn>
+    <lastModifiedBy><![CDATA[Admin]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2002-01-25 10:03:05]]></lastModifiedOn>
+    <allow>
+      <_variables />
+    </allow>
+  </item>
+  <item name="db_Tables" type="category" img="category_images\cat13.png">
+    <createdBy><![CDATA[Admin]]></createdBy>
+    <createdOn><![CDATA[2009-01-20 16:49:56]]></createdOn>
+    <lastModifiedBy><![CDATA[Admin]]></lastModifiedBy>
+    <lastModifiedOn><![CDATA[2009-01-20 16:51:55]]></lastModifiedOn>
+    <allow>
+      <_tables />
+    </allow>
+  </item>
+  <item name="List_TD_Question" type="list" category="" parentobj="" multiselect="false" hastree="false" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="false" readonly="false" />
+      <Default description="Default value" hidden="false" readonly="false" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="false" readonly="false" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="false" readonly="false" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string"  exposedout="true" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <altText group="" type="string" userdefined="true"  exposedout="true" length="255"></altText>
+      <youText group="" type="string" userdefined="true"  exposedout="true" length="255"></youText>
+      <sigFlag group="" type="boolean" userdefined="true"  exposedout="true">true</sigFlag>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <multiSelect group="Format" type="boolean">false</multiSelect>
+      <default group="Default" type="string" length="100"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <allowSolutions group="Knowledge" type="boolean">false</allowSolutions>
+      <caseSolutionBase group="Knowledge" type="tied"></caseSolutionBase>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">false</isDynamic>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied">List_TD_Question_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">false</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Options displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="true" translate="false" flags="system" trawlexport="false" length="255" />
+    </valueprops>
+  </item>
+  <item name="Numeric_TD_Question" type="numeric" category="" parentobj="" hastree="false" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="false" readonly="false" />
+      <Default description="Default value" hidden="false" readonly="false" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="false" readonly="false" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <altText group="" type="string" userdefined="true"  exposedout="true" length="255"></altText>
+      <youText group="" type="string" userdefined="true"  exposedout="true" length="255"></youText>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <decPlaces group="Format" type="integer">0</decPlaces>
+      <default group="Default" type="float" decplaces="0">0</default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">false</isDynamic>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <maxValue group="Display" type="float" decplaces="0">0</maxValue>
+      <minValue group="Display" type="float" decplaces="0">0</minValue>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <tiedDialog group="Display" type="tied">Numeric_TD_Question_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+        </enums>
+        <value><![CDATA[Yes]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+  </item>
+  <item name="Boolean_TD_Question" type="boolean" category="" parentobj="" hastree="false" hascases="false" >
+    <groups>
+      <Default description="Default value" hidden="false" readonly="false" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="false" readonly="false" />
+      <Fuzzy description="Fuzzy Knowledge Parameters" hidden="false" readonly="false" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <altText group="" type="string" userdefined="true"  exposedout="true" length="255"></altText>
+      <youText group="" type="string" userdefined="true"  exposedout="true" length="255"></youText>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <default group="Default" type="boolean">true</default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasPolicyRules group="Knowledge" type="boolean">false</hasPolicyRules>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">false</isDynamic>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <allowInvalid group="Display" type="boolean">false</allowInvalid>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <questionTextProp group="Display" type="propref">TiedProc</questionTextProp>
+      <searchMapLink group="Display" type="string" length="255"></searchMapLink>
+      <showInvalid group="Display" type="boolean">true</showInvalid>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <sortDirection group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Ascending]]></value>
+          <value><![CDATA[Descending]]></value>
+        </enums>
+        <value><![CDATA[Descending]]></value>
+      </sortDirection>
+      <sortInvalid group="Display" type="boolean">true</sortInvalid>
+      <tiedDialog group="Display" type="tied">Boolean_TD_Question_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <viewCasesAsRules group="Display" type="boolean">false</viewCasesAsRules>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Knowledge]]></value>
+        </enums>
+        <value><![CDATA[Knowledge]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <fuzzyValue group="Fuzzy" type="float" decplaces="2">0.00</fuzzyValue>
+      <isFuzzy group="Fuzzy" type="boolean">false</isFuzzy>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+    <valueprops>
+      <Value displayno="0" displaywidth="80" ishtml="false" hierarchyout="false" constraints="false" xmlout="true" exposedout="false" translate="false" flags="system" trawlexport="false" length="40" />
+      <values>
+        <item>
+          <name><![CDATA[Yes]]></name>
+        </item>
+        <item>
+          <name><![CDATA[No]]></name>
+        </item>
+      </values>
+    </valueprops>
+  </item>
+  <item name="Date_TD_Question" type="date" category="" parentobj="" hastree="false" hascases="false" >
+    <groups>
+      <Default description="Default value" hidden="false" readonly="false" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="false" readonly="false" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <default group="Default" type="date">20111123</default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">false</isDynamic>
+      <isPause group="Inference" type="boolean">false</isPause>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <maxValue group="Display" type="date">20111123</maxValue>
+      <minValue group="Display" type="date">20111123</minValue>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <tiedDialog group="Display" type="tied">Date_TD_Question_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+        </enums>
+        <value><![CDATA[Yes]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <extendInstances group="Database" type="boolean">false</extendInstances>
+      <instanceDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </instanceDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+  </item>
+  <item name="Text_TD_Question" type="text" category="" parentobj="" hastree="false" hascases="false" >
+    <groups>
+      <Format description="Format information" hidden="false" readonly="false" />
+      <Default description="Default value" hidden="false" readonly="false" />
+      <Knowledge description="Knowledge representation" hidden="true" readonly="true" />
+      <Inference description="Inference properties" hidden="false" readonly="false" />
+      <eService description="eService Parameters" hidden="false" readonly="false" />
+      <Display description="Display properties" hidden="false" readonly="false" />
+      <Hierarchy description="Hierarchy properties" hidden="true" readonly="true" />
+      <Database description="Database Lookup" hidden="true" readonly="true" />
+      <Help description="Help Jump" hidden="true" readonly="true" />
+    </groups>
+    <flatprops>
+      <description group="" type="string" length="255"></description>
+      <howText group="" type="string" length="100"></howText>
+      <isEmpty group="" type="boolean">true</isEmpty>
+      <altText group="" type="string" userdefined="true"  exposedout="true" length="255"></altText>
+      <youText group="" type="string" userdefined="true"  exposedout="true" length="255"></youText>
+      <XMLstatus group="" type="enum" >
+        <enums>
+          <value><![CDATA[Empty]]></value>
+          <value><![CDATA[Valid]]></value>
+          <value><![CDATA[Invalid]]></value>
+        </enums>
+        <value><![CDATA[Empty]]></value>
+      </XMLstatus>
+      <length group="Format" type="integer">0</length>
+      <default group="Default" type="string" length="255"></default>
+      <defaultMode group="Default" type="enum" >
+        <enums>
+          <value><![CDATA[UseDefault]]></value>
+          <value><![CDATA[SetDefault]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </defaultMode>
+      <allowNavTree group="Knowledge" type="boolean">false</allowNavTree>
+      <hasCases group="Knowledge" type="boolean">false</hasCases>
+      <hasEvents group="Knowledge" type="boolean">true</hasEvents>
+      <hasTree group="Knowledge" type="boolean">false</hasTree>
+      <knowledgeMode group="Knowledge" type="enum" >
+        <enums>
+          <value><![CDATA[Tree]]></value>
+          <value><![CDATA[Cases]]></value>
+          <value><![CDATA[Policy Rules]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </knowledgeMode>
+      <casesPrompt group="Inference" type="boolean">true</casesPrompt>
+      <constraintMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Instance Properties]]></value>
+          <value><![CDATA[Knowledge]]></value>
+          <value><![CDATA[Knowledge & Instance Properties]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </constraintMode>
+      <firedLeafNo group="Inference" type="integer">0</firedLeafNo>
+      <isDynamic group="Inference" type="boolean">false</isDynamic>
+      <oneWayConstraint group="Inference" type="boolean">false</oneWayConstraint>
+      <selectionMode group="Inference" type="enum" >
+        <enums>
+          <value><![CDATA[Decision]]></value>
+          <value><![CDATA[Pattern Match]]></value>
+          <value><![CDATA[Tree Dialog]]></value>
+        </enums>
+        <value><![CDATA[Decision]]></value>
+      </selectionMode>
+      <staticInclusion group="Inference" type="boolean">false</staticInclusion>
+      <tiedFwdTask group="Inference" type="tied"></tiedFwdTask>
+      <allowBlank group="Display" type="boolean">false</allowBlank>
+      <groupPreviousAnswers group="Display" type="enum" >
+        <enums>
+          <value><![CDATA[Above]]></value>
+          <value><![CDATA[Below]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </groupPreviousAnswers>
+      <helpText group="Display" type="string" length="1024"></helpText>
+      <inputMask group="Display" type="string" length="80"></inputMask>
+      <isEnabled group="Display" type="boolean">true</isEnabled>
+      <isPassword group="Display" type="boolean">false</isPassword>
+      <isVisible group="Display" type="boolean">true</isVisible>
+      <multiLine group="Display" type="boolean">true</multiLine>
+      <previousAnswersReadOnly group="Display" type="boolean">false</previousAnswersReadOnly>
+      <showOnTreeDialog group="Display" type="boolean">true</showOnTreeDialog>
+      <tiedDialog group="Display" type="tied">Text_TD_Dlg</tiedDialog>
+      <tiedReport group="Display" type="tied"></tiedReport>
+      <tiedWebPage group="Display" type="string" length="255"></tiedWebPage>
+      <hasChildren group="Hierarchy" type="boolean">false</hasChildren>
+      <isSelected group="Hierarchy" type="enum" >
+        <enums>
+          <value><![CDATA[Yes]]></value>
+          <value><![CDATA[No]]></value>
+        </enums>
+        <value><![CDATA[Yes]]></value>
+      </isSelected>
+      <setChildContexts group="Hierarchy" type="boolean">false</setChildContexts>
+      <caseDBMode group="Database" type="enum" >
+        <enums>
+          <value><![CDATA[Manual]]></value>
+          <value><![CDATA[Live]]></value>
+          <value><![CDATA[Cut]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </caseDBMode>
+      <HelpJump group="Help" type="string" length="255"></HelpJump>
+      <attachment group="eService" type="string" length="255"></attachment>
+      <explanation group="eService" type="string" length="255"></explanation>
+      <isSearchable group="eService" type="boolean">false</isSearchable>
+      <isTroubleshootObject group="eService" type="boolean">false</isTroubleshootObject>
+      <rootCause group="eService" type="enum" >
+        <enums>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </rootCause>
+      <selectionRule group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[Inclusion]]></value>
+          <value><![CDATA[Exclusion]]></value>
+        </enums>
+        <value><![CDATA[(none)]]></value>
+      </selectionRule>
+      <sortTreeObjects group="eService" type="boolean">true</sortTreeObjects>
+      <trawlerTemplate group="eService" type="string" length="255"></trawlerTemplate>
+      <troubleshootTree group="eService" type="enum" >
+        <enums>
+          <value><![CDATA[No]]></value>
+          <value><![CDATA[Single]]></value>
+          <value><![CDATA[Group]]></value>
+          <value><![CDATA[Dynamic]]></value>
+        </enums>
+        <value><![CDATA[No]]></value>
+      </troubleshootTree>
+      <TSranks group="eService" type="string" length="255"></TSranks>
+      <TSreturn group="eService" type="string" length="255"></TSreturn>
+    </flatprops>
+  </item>
+

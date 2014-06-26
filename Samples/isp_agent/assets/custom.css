@@ -1,0 +1,53 @@
+.txtDefault {
+    font-size:14px;
+}
+
+.txtQ {
+    font-size:16px;
+    font-weight:bold;
+    color: #003A4D;
+}
+
+.txtA {
+    font-size:14px;
+}
+
+.txtBold {
+    font-size:16px;
+}
+
+.dropdown-item {				/* Not Required for the new UI */
+	font-size:14px;
+    padding-bottom:2px;
+}
+
+.dialog_body {				/* Not Required for the new UI */
+	background-color:#E3EDED;
+}
+
+/* New Additions for the new UI */
+.xrui-dialog-body {
+	background-color:#E3EDED;
+}
+
+.xrui-ticklistbox {
+	border: none;
+}
+
+.xrui-ticklistbox-dropdown-item {
+	font-size:14px;
+    padding-bottom:2px;
+}
+
+.xrui-panels-reanswer-tab {
+    background: url("images/reanswer-bkgnd.png") no-repeat scroll 0 0 #F0F0C0;
+    margin: 4px;
+    opacity: 0.7;
+}
+
+.xrui-listbox-invalid {
+    border: 1px solid red !important;
+}
+
+
+

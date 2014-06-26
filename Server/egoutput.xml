@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<data>
+  <Tree_Dialog1 uid="25219072">__XR__EMPTY__</Tree_Dialog1>
+  <Ind0180WhchSrtsOfLqdsMkT uid="25209600" description="Which sorts of liquids make the pain worse" listDesc="Alcoholic Drinks, Fizzy Drinks, Fruit Juces">181|182|183</Ind0180WhchSrtsOfLqdsMkT>
+  <Ind0008WhtGndrIsThPtnt uid="25180672" description="What gender is the patient" youtext="What gender are you" listDesc="other">11</Ind0008WhtGndrIsThPtnt>
+  <HS13 uid="25180928" description="Midline scalp" question="Rash location">__XR__EMPTY__</HS13>
+  <HS14 uid="25181184" description="left scalp" question="Rash location">__XR__EMPTY__</HS14>
+  <HS15 uid="25181440" description="right scalp" question="Rash location">__XR__EMPTY__</HS15>
+  <HS16 uid="25181696" description="Midline forehead" question="Rash location">__XR__EMPTY__</HS16>
+  <HS17 uid="25181952" description="left forehead" question="Rash location">__XR__EMPTY__</HS17>
+  <HS18 uid="25182208" description="right forehead" question="Rash location">__XR__EMPTY__</HS18>
+  <HS19 uid="25182464" description="left eye area" question="Rash location">__XR__EMPTY__</HS19>
+  <HS20 uid="25182720" description="right eye area" question="Rash location">__XR__EMPTY__</HS20>
+  <HS21 uid="25182976" description="left eye" question="Rash location">__XR__EMPTY__</HS21>
+  <HS22 uid="25183232" description="right eye" question="Rash location">__XR__EMPTY__</HS22>
+  <HS23 uid="25183488" description="left cheek" question="Rash location">__XR__EMPTY__</HS23>
+  <HS24 uid="25183744" description="right cheek" question="Rash location">__XR__EMPTY__</HS24>
+  <HS25 uid="25184000" description="left ear" question="Rash location">__XR__EMPTY__</HS25>
+  <HS26 uid="25184256" description="right ear" question="Rash location">__XR__EMPTY__</HS26>
+  <HS27 uid="25184512" description="left side of nose" question="Rash location">__XR__EMPTY__</HS27>
+  <HS28 uid="25184768" description="right side of nose" question="Rash location">__XR__EMPTY__</HS28>
+  <HS29 uid="25185024" description="left side of upper lip" question="Rash location">__XR__EMPTY__</HS29>
+  <HS30 uid="25185280" description="left side of lower lip" question="Rash location">__XR__EMPTY__</HS30>
+  <HS31 uid="25185536" description="right side of upper lip" question="Rash location">__XR__EMPTY__</HS31>
+  <HS32 uid="25185792" description="right side of lower lip" question="Rash location">__XR__EMPTY__</HS32>
+  <HS33 uid="25186048" description="left side of jaw" question="Rash location">__XR__EMPTY__</HS33>
+  <HS34 uid="25186304" description="right side of jaw" question="Rash location">__XR__EMPTY__</HS34>
+  <HS35 uid="25186560" description="midline nose" question="Rash location">__XR__EMPTY__</HS35>
+  <HS36 uid="25186816" description="midline upper lip" question="Rash location">__XR__EMPTY__</HS36>
+  <HS37 uid="25187072" description="midline lower lip" question="Rash location">__XR__EMPTY__</HS37>
+  <HS38 uid="25187328" description="midline jaw" question="Rash location">__XR__EMPTY__</HS38>
+  <HS39 uid="25187584" description="right side of upper neck" question="Rash location">__XR__EMPTY__</HS39>
+  <HS40 uid="25187840" description="right side of lower neck" question="Rash location">__XR__EMPTY__</HS40>
+  <HS41 uid="25188096" description="midline upper neck" question="Rash location">__XR__EMPTY__</HS41>
+  <HS42 uid="25188352" description="midline lower neck" question="Rash location">__XR__EMPTY__</HS42>
+  <HS43 uid="25188608" description="leftside of upper neck" question="Rash location">__XR__EMPTY__</HS43>
+  <HS44 uid="25188864" description="leftside of lower neck" question="Rash location">__XR__EMPTY__</HS44>
+  <HS45 uid="25189120" description="left inner clavicle area" question="Rash location">__XR__EMPTY__</HS45>
+  <HS46 uid="25189376" description="left outer clavicle area" question="Rash location">__XR__EMPTY__</HS46>
+  <HS47 uid="25189632" description="right inner clavicle area" question="Rash location">__XR__EMPTY__</HS47>
+  <HS48 uid="25189888" description="right outer clavicle area" question="Rash location">__XR__EMPTY__</HS48>
+  <HS49 uid="25190144" description="left shoulder" question="Rash location">__XR__EMPTY__</HS49>
+  <HS50 uid="25190400" description="right shoulder" question="Rash location">__XR__EMPTY__</HS50>
+  <HS51 uid="25190656" description="left armpit" question="Rash location">__XR__EMPTY__</HS51>
+  <HS52 uid="25190912" description="right armpit" question="Rash location">__XR__EMPTY__</HS52>
+  <HS53 uid="25191168" description="upper chest midline" question="Rash location">__XR__EMPTY__</HS53>
+  <HS54 uid="25191424" description="upper left chest inner" question="Rash location">__XR__EMPTY__</HS54>
+  <HS55 uid="25191680" description="upper left chest outer" question="Rash location">__XR__EMPTY__</HS55>
+  <HS56 uid="25191936" description="upper right chest inner" question="Rash location">__XR__EMPTY__</HS56>
+  <HS57 uid="25192192" description="upper right chest outer" question="Rash location">__XR__EMPTY__</HS57>
+  <HS58 uid="25192448" description="lower chest midline" question="Rash location">__XR__EMPTY__</HS58>
+  <HS59 uid="25192704" description="lower left chest inner" question="Rash location">__XR__EMPTY__</HS59>
+  <HS60 uid="25192960" description="lower left chest outer" question="Rash location">__XR__EMPTY__</HS60>
+  <HS61 uid="25193216" description="lower right chest inner" question="Rash location">__XR__EMPTY__</HS61>
+  <HS62 uid="25193472" description="lower right chest outer" question="Rash location">__XR__EMPTY__</HS62>
+  <HS63 uid="25193728" description="upper abdomen midline" question="Rash location">__XR__EMPTY__</HS63>
+  <HS64 uid="25193984" description="upper abdomen left inner" question="Rash location">__XR__EMPTY__</HS64>
+  <HS65 uid="25194240" description="upper abdomen right inner" question="Rash location">__XR__EMPTY__</HS65>
+  <HS66 uid="25194496" description="upper abdomen right outer" question="Rash location">__XR__EMPTY__</HS66>
+  <HS67 uid="25194752" description="upper abdomen left outer" question="Rash location">__XR__EMPTY__</HS67>
+  <HS68 uid="25195008" description="mid abdomen midline" question="Rash location">__XR__EMPTY__</HS68>
+  <HS69 uid="25195264" description="mid abdomen left inner" question="Rash location">__XR__EMPTY__</HS69>
+  <HS70 uid="25195520" description="mid abdomen right inner" question="Rash location">__XR__EMPTY__</HS70>
+  <HS71 uid="25195776" description="mid abdomen right outer" question="Rash location">__XR__EMPTY__</HS71>
+  <HS72 uid="25196032" description="mid abdomen left outer" question="Rash location">__XR__EMPTY__</HS72>
+  <HS73 uid="25196288" description="lower abdomen midline" question="Rash location">__XR__EMPTY__</HS73>
+  <HS74 uid="25196544" description="lower abdomen left inner" question="Rash location">__XR__EMPTY__</HS74>
+  <HS75 uid="25196800" description="lower abdomen right inner" question="Rash location">__XR__EMPTY__</HS75>
+  <HS76 uid="25197056" description="lower abdomen right outer" question="Rash location">__XR__EMPTY__</HS76>
+  <HS77 uid="25197312" description="lower abdomen left outer" question="Rash location">__XR__EMPTY__</HS77>
+  <HS78 uid="25197568" description="groin left" question="Rash location">__XR__EMPTY__</HS78>
+  <HS79 uid="25197824" description="groin right" question="Rash location">__XR__EMPTY__</HS79>
+  <HS80 uid="25198080" description="scrotum left" question="Rash location">__XR__EMPTY__</HS80>
+  <HS81 uid="25198336" description="scrotum right" question="Rash location">__XR__EMPTY__</HS81>
+  <HS82 uid="25198592" description="Penis" question="Rash location">__XR__EMPTY__</HS82>
+  <HS83 uid="25198848" description="left leg upper thigh" question="Rash location">Yes</HS83>
+  <HS84 uid="25199104" description="left leg lower thigh" question="Rash location">Yes</HS84>
+  <HS85 uid="25199360" description="left leg knee" question="Rash location">__XR__EMPTY__</HS85>
+  <HS86 uid="25199616" description="left leg upper shin" question="Rash location">__XR__EMPTY__</HS86>
+  <HS87 uid="25199872" description="left leg lower shin" question="Rash location">__XR__EMPTY__</HS87>
+  <HS88 uid="25200128" description="left leg front of ankle" question="Rash location">__XR__EMPTY__</HS88>
+  <HS89 uid="25200384" description="left leg upper foot" question="Rash location">__XR__EMPTY__</HS89>
+  <HS90 uid="25200640" description="left leg toes" question="Rash location">__XR__EMPTY__</HS90>
+  <HS91 uid="25200896" description="right leg upper thigh" question="Rash location">Yes</HS91>
+  <HS92 uid="25201152" description="right leg lower thigh" question="Rash location">Yes</HS92>
+  <HS93 uid="25201408" description="right leg knee" question="Rash location">__XR__EMPTY__</HS93>
+  <HS94 uid="25201664" description="right leg upper shin" question="Rash location">__XR__EMPTY__</HS94>
+  <HS95 uid="25201920" description="right leg lower shin" question="Rash location">__XR__EMPTY__</HS95>
+  <HS96 uid="25202176" description="right leg front of ankle" question="Rash location">__XR__EMPTY__</HS96>
+  <HS97 uid="25202432" description="right leg upper foot" question="Rash location">__XR__EMPTY__</HS97>
+  <HS98 uid="25202688" description="right leg toes" question="Rash location">__XR__EMPTY__</HS98>
+  <HS99 uid="25202944" description="left upper arm upper" question="Rash location">__XR__EMPTY__</HS99>
+  <HS100 uid="25203200" description="left upper arm lower" question="Rash location">__XR__EMPTY__</HS100>
+  <HS101 uid="25203456" description="left elbow front" question="Rash location">__XR__EMPTY__</HS101>
+  <HS102 uid="25203712" description="left forearm front of" question="Rash location">__XR__EMPTY__</HS102>
+  <HS103 uid="25203968" description="left wrist" question="Rash location">__XR__EMPTY__</HS103>
+  <HS104 uid="25204224" description="left hand back of" question="Rash location">__XR__EMPTY__</HS104>
+  <HS105 uid="25204480" description="left hand fingers and thumb" question="Rash location">__XR__EMPTY__</HS105>
+  <HS106 uid="25204736" description="right upper arm upper" question="Rash location">__XR__EMPTY__</HS106>
+  <HS107 uid="25204992" description="right upper arm lower" question="Rash location">__XR__EMPTY__</HS107>
+  <HS108 uid="25205248" description="right elbow front" question="Rash location">__XR__EMPTY__</HS108>
+  <HS109 uid="25205504" description="right forearm front of" question="Rash location">__XR__EMPTY__</HS109>
+  <HS110 uid="25205760" description="right wrist" question="Rash location">__XR__EMPTY__</HS110>
+  <HS111 uid="25206016" description="right hand back of" question="Rash location">__XR__EMPTY__</HS111>
+  <HS112 uid="25206272" description="right hand fingers and thumb" question="Rash location">__XR__EMPTY__</HS112>
+</data>

@@ -1,17 +1,1 @@
 [20-May-2014 15:00:35 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/eldwick/public_html/files/rogo/readxml.php on line 76
-[21-May-2014 17:01:40 Europe/London] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 8
-[21-May-2014 17:01:40 Europe/London] PHP Warning:  imagerectangle() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 10
-[21-May-2014 17:01:40 Europe/London] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 18
-[21-May-2014 17:01:40 Europe/London] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 19
-[22-May-2014 13:34:51 Europe/London] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 8
-[22-May-2014 13:34:51 Europe/London] PHP Warning:  imagerectangle() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 10
-[22-May-2014 13:34:51 Europe/London] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 18
-[22-May-2014 13:34:51 Europe/London] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 19
-[22-May-2014 19:11:03 Europe/London] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 8
-[22-May-2014 19:11:03 Europe/London] PHP Warning:  imagerectangle() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 10
-[22-May-2014 19:11:03 Europe/London] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 18
-[22-May-2014 19:11:03 Europe/London] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 19
-[23-May-2014 18:13:54 Europe/London] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 8
-[23-May-2014 18:13:54 Europe/London] PHP Warning:  imagerectangle() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 10
-[23-May-2014 18:13:54 Europe/London] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 18
-[23-May-2014 18:13:54 Europe/London] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/eldwick/public_html/files/rogo/img_gen.php on line 19

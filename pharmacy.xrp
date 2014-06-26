@@ -1,0 +1,7 @@
+[MAIN]
+=
+Cypher=0
+CONNECTSTRING=DSN=MS Access;DBQ=C:\Users\Patrick\Documents\XpertRule\Knowledge Builder\pharmacy.mdb;DriverId=25;FIL=MS Access;MaxBufferSize=2048;PageTimeout=5;
+DELIMITER1=[
+DELIMITER2=]
+

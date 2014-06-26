@@ -1,0 +1,92 @@
+.dialog_hotspot_hot {
+	background-image: url("images/tick.png");
+}
+
+.header {				/* Not Required for the new UI */
+	font-weight: bold;
+}
+
+.dropdown-item {
+	font-size: 80%;
+	font-weight: bold;
+	border-style:solid;
+	border-width:1px;
+	border-color: #ffffff;
+	-moz-border-radius: 6px; -webkit-border-radius: 6px; 	border-radius: 6px;
+}
+
+.dropdown-main {
+    background-color: #AED0EA;
+    border-radius: 6px;
+}
+
+.panels-page {				/* Not Required for the new UI */
+	background-image: url("");
+	border: none;
+	margin-bottom: 15px;
+}
+
+.ui-widget {
+	font-size: 16px;
+}
+
+.checkbox, .radio {/* Not Required for the new UI  Replaced by xrui-ticklistbox-radio-image */
+ width: 32px;
+ height: 32px;
+ background: url(images/checkbox2.png) no-repeat;
+}
+.radio {
+ background: url(images/checkbox2.png) no-repeat;
+}
+.check-selected{
+ background-position: 0px -64px;
+}
+.check-unselected-hot{
+ background-position: 0px -32px;
+}
+.check-selected-hot{
+ background-position: 0px -96px;
+}
+.listbox-cell{
+ top: 8px;
+}
+
+/* New Additions for the new UI */
+.xrui-ticklistbox{
+	background: #AED0EA;
+}
+
+.xrui-panels-page {
+	background-image: url("");
+	border: none;
+	margin-bottom: 15px;
+}
+
+.xrui-ticklistbox-radio-image {
+	width: 32px;
+ 	height: 32px;
+ 	background: url(images/checkbox2.png) no-repeat;
+}
+
+.xrui-panels-page .xrui-panels-title {
+    font-size: 1.4em;
+}
+
+.header {
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+.dropdown-item {
+    border: 0 none !important;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.xrui-hotspot-hot {
+    background: url("images/tick.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}

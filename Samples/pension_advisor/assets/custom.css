@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.dialog_frame{				/* Not Required for the new UI */
+	font-family:"Verdana", Verdana, sans-serif;
+	font-style: normal;
+	font-size: 10px;	
+	border-style: none;
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 	
+	border-radius: 20px;
+}
+
+.dialog_body{				/* Not Required for the new UI */
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 	
+	border-radius: 20px;
+	background: #EDF6FF;
+	background: -webkit-gradient(linear, left top, left 	bottom, from(#EDF6FF), to(#fff)); 
+	background: -moz-linear-gradient(top,  #EDF6FF,  #fff);
+}
+
+.myImage{
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px; 	
+	border-radius: 15px;
+}
+
+.ui-button{
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 	
+	border-radius: 10px;
+}
+
+.question{
+	font-family:"Verdana", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;	
+	color: #003366;
+}
+
+.answeres{
+	height: 200;
+	text-align: center;
+	vertical-align: center;
+}
+
+.report{
+	font-size: 12px;
+}
+
+.header_line{
+	background-color: #0099cc;
+}
+
+.dialog_altlistbox{
+	color: #333333;
+}
+
+.borders{
+	background-color: #cccccc;
+}
+
+.warning{
+	color: #ff9900;
+}
+
+.welcome{
+	color: #333333;
+	font-size: 14px;
+}
+
+.dialog_numeric{
+	color: #333333;
+}
+
+.radiobtnbox:focus {
+	outline: none;
+}
+
+.radiobtnbox{
+	border: none;
+	background-color: transparent;
+	background-image: none;
+}
+
+/* New Additions for the new UI */
+.xrui-dialog-container{
+	font-family:"Verdana", Verdana, sans-serif;
+	font-style: normal;
+	font-size: 10px;	
+	border-style: none;
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 	
+	border-radius: 20px;
+}
+
+.xrui-dialog-body {
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 	
+	border-radius: 20px;
+	background: #EDF6FF;
+	background: -webkit-gradient(linear, left top, left 	bottom, from(#EDF6FF), to(#fff)); 
+	background: -moz-linear-gradient(top,  #EDF6FF,  #fff);
+}
+
+.xrui-listbox-invalid {
+    border: 1px solid red !important;
+}
+
+.ui-widget .ui-widget {
+    font-size: 12px;
+}
+
+.warning{
+    font-size: 12px;
+}

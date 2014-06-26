@@ -44,7 +44,7 @@ Array
                     [YOUTEXT] => On whos behalf are you answering
                 )
 
-            [value] => Other
+            [value] => Myself
         )
 
     [4] => Array
@@ -65,11 +65,11 @@ Array
                 (
                     [UID] => 12596736
                     [ALTTEXT] => Years old
-                    [DESCRIPTION] => How many years old is the patient (enter 0 if less than 1)
+                    [DESCRIPTION] => How many years old are you
                     [YOUTEXT] => How many years old are you
                 )
 
-            [value] => 56
+            [value] => 55
         )
 
     [6] => Array
@@ -111,7 +111,7 @@ Array
             [attributes] => Array
                 (
                     [UID] => 12623616
-                    [DESCRIPTION] => Is having indigestion an uncommon problem for the patient
+                    [DESCRIPTION] => Is having indigestion a common problem for you
                     [SIGFLAG] => true
                     [YOUTEXT] => Is having indigestion a common problem for you
                     [LISTDESC] => yes it is uncommon
@@ -138,13 +138,13 @@ Array
                 (
                     [UID] => 12625920
                     [ALTTEXT] => Dizzy or Faint
-                    [DESCRIPTION] => Does the patient feel dizzy or faint
+                    [DESCRIPTION] => Do you feel dizzy or faint
                     [SIGFLAG] => true
                     [YOUTEXT] => Do you feel dizzy or faint
-                    [LISTDESC] => no
+                    [LISTDESC] => yes
                 )
 
-            [value] => V_154
+            [value] => V_153
         )
 
     [12] => Array
@@ -216,11 +216,12 @@ Array
             [attributes] => Array
                 (
                     [UID] => 12633856
-                    [DESCRIPTION] => Health professional
-                    [LISTDESC] => GP or Nurse Practitioner in general practice
+                    [DESCRIPTION] => Has any advice been obtained from any of the following health professional about this medical problem (Tick any which apply)
+                    [SIGFLAG] => true
+                    [LISTDESC] => Pharmacist
                 )
 
-            [value] => V_283
+            [value] => V_282
         )
 
     [18] => Array
@@ -240,12 +241,12 @@ Array
             [attributes] => Array
                 (
                     [UID] => 12634112
-                    [ALTTEXT] => When
                     [DESCRIPTION] => When was this
-                    [LISTDESC] => 3 days ago
+                    [SIGFLAG] => true
+                    [LISTDESC] => Within the last day
                 )
 
-            [value] => V_291
+            [value] => V_289
         )
 
     [20] => Array
@@ -265,12 +266,12 @@ Array
             [attributes] => Array
                 (
                     [UID] => 12634368
-                    [ALTTEXT] => Treatment
                     [DESCRIPTION] => Please tick any treatment was given or advised (tick all that apply)
-                    [LISTDESC] => Ranitidine or Cimetidine
+                    [SIGFLAG] => true
+                    [LISTDESC] => Antacid medicine or tablets
                 )
 
-            [value] => V_298
+            [value] => V_297
         )
 
     [22] => Array
@@ -293,19 +294,148 @@ Array
         (
             [tag] => INSTANCES
             [value] => 
-  
+    
             [type] => cdata
             [level] => 2
         )
 
     [25] => Array
         (
+            [tag] => INSTANCE
+            [type] => open
+            [level] => 3
+            [attributes] => Array
+                (
+                    [DLG] => Dialog2
+                    [DESCRIPTION] => treatment details
+                    [SUB] => Tree_Dialog3
+                )
+
+            [value] => 
+      
+        )
+
+    [26] => Array
+        (
+            [tag] => TREE_DIALOG3
+            [type] => complete
+            [level] => 4
+            [attributes] => Array
+                (
+                    [UID] => 12640512
+                )
+
+            [value] => Complete
+        )
+
+    [27] => Array
+        (
+            [tag] => INSTANCE
+            [value] => 
+      
+            [type] => cdata
+            [level] => 3
+        )
+
+    [28] => Array
+        (
+            [tag] => IND0281HSANYADVCBNOBTND
+            [type] => complete
+            [level] => 4
+            [attributes] => Array
+                (
+                    [UID] => 12633856
+                    [DESCRIPTION] => Has any advice been obtained from any of the following health professional about this medical problem (Tick any which apply)
+                    [SIGFLAG] => true
+                    [LISTDESC] => GP or Nurse Practitioner in general practice
+                )
+
+            [value] => V_283
+        )
+
+    [29] => Array
+        (
+            [tag] => INSTANCE
+            [value] => 
+      
+            [type] => cdata
+            [level] => 3
+        )
+
+    [30] => Array
+        (
+            [tag] => IND0288WHNWSTHS
+            [type] => complete
+            [level] => 4
+            [attributes] => Array
+                (
+                    [UID] => 12634112
+                    [DESCRIPTION] => When was this
+                    [SIGFLAG] => true
+                    [LISTDESC] => 2 days ago
+                )
+
+            [value] => V_290
+        )
+
+    [31] => Array
+        (
+            [tag] => INSTANCE
+            [value] => 
+      
+            [type] => cdata
+            [level] => 3
+        )
+
+    [32] => Array
+        (
+            [tag] => IND0296PLSTCKANYTRTMNTW
+            [type] => complete
+            [level] => 4
+            [attributes] => Array
+                (
+                    [UID] => 12634368
+                    [DESCRIPTION] => Please tick any treatment was given or advised (tick all that apply)
+                    [SIGFLAG] => true
+                    [LISTDESC] => Ranitidine or Cimetidine
+                )
+
+            [value] => V_298
+        )
+
+    [33] => Array
+        (
+            [tag] => INSTANCE
+            [value] => 
+    
+            [type] => cdata
+            [level] => 3
+        )
+
+    [34] => Array
+        (
+            [tag] => INSTANCE
+            [type] => close
+            [level] => 3
+        )
+
+    [35] => Array
+        (
+            [tag] => INSTANCES
+            [value] => 
+  
+            [type] => cdata
+            [level] => 2
+        )
+
+    [36] => Array
+        (
             [tag] => INSTANCES
             [type] => close
             [level] => 2
         )
 
-    [26] => Array
+    [37] => Array
         (
             [tag] => DATA
             [value] => 
@@ -314,7 +444,7 @@ Array
             [level] => 1
         )
 
-    [27] => Array
+    [38] => Array
         (
             [tag] => IND0012WHRABTSISYRRSH
             [type] => complete
@@ -325,13 +455,13 @@ Array
                     [ALTTEXT] => Rash location
                     [DESCRIPTION] => Where abouts is your rash
                     [SIGFLAG] => true
-                    [LISTDESC] => upper abdomen right outer
+                    [LISTDESC] => right hand back of
                 )
 
-            [value] => H_66
+            [value] => H_111
         )
 
-    [28] => Array
+    [39] => Array
         (
             [tag] => DATA
             [value] => 
@@ -340,7 +470,7 @@ Array
             [level] => 1
         )
 
-    [29] => Array
+    [40] => Array
         (
             [tag] => DATA
             [type] => close

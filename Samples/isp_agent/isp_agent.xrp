@@ -1,0 +1,7 @@
+[MAIN]
+=
+Cypher=0
+CONNECTSTRING=DSN=xrkb_samples;DBQ=C:\Users\Patrick\Documents\XpertRule\Knowledge Builder\Samples\isp_agent\isp_agent.mdb;DriverId=281;FIL=MS Access;MaxBufferSize=2048;PageTimeout=5;UID=admin;
+DELIMITER1=[
+DELIMITER2=]
+
