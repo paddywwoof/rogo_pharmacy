@@ -13,7 +13,7 @@ with open('head.xml', 'r') as f:
 with open('tail.xml', 'r') as f:
   f_tail = f.read()
 
-with open('combined.xml', 'w') as f:
+with open('combineda.xml', 'w') as f:
   f.write(f_head)
   loc_list = {} # to keep track of Boolean_Attributes
   ## go through csv_list
