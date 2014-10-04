@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <data>
-  <Tree_Dialog2 uid="12638464">Complete</Tree_Dialog2>
-  <User uid="12638720" alttext="Answerer" description="On whos behalf are you answering" youtext="On whos behalf are you answering">Myself</User>
-  <Ind0000HwOldIsThPtnt uid="12596736" alttext="Years old" description="How many years old are you" youtext="How many years old are you">55</Ind0000HwOldIsThPtnt>
-  <Tree_Dialog1 uid="12637184">Complete</Tree_Dialog1>
-  <Ind0113IsHvngIndgstnAnUnc uid="12623616" description="Is having indigestion a common problem for you" sigflag="true" youtext="Is having indigestion a common problem for you" listDesc="yes it is uncommon">V_114</Ind0113IsHvngIndgstnAnUnc>
-  <Ind0152DsThPtntFlDzzyO uid="12625920" alttext="Dizzy or Faint" description="Do you feel dizzy or faint" sigflag="true" youtext="Do you feel dizzy or faint" listDesc="yes">V_153</Ind0152DsThPtntFlDzzyO>
-  <instances dlgid="1">
-    <instance dlg="Dialog2" description="treatment details" sub="Tree_Dialog3">
-      <Tree_Dialog3 uid="12640512">Complete</Tree_Dialog3>
-      <Ind0281HsAnyAdvcBnObtnd uid="12633856" description="Has any advice been obtained from any of the following health professional about this medical problem (Tick any which apply)" sigflag="true" listDesc="Pharmacist">V_282</Ind0281HsAnyAdvcBnObtnd>
-      <Ind0288WhnWsThs uid="12634112" description="When was this" sigflag="true" listDesc="Within the last day">V_289</Ind0288WhnWsThs>
-      <Ind0296PlsTckAnyTrtmntW uid="12634368" description="Please tick any treatment was given or advised (tick all that apply)" sigflag="true" listDesc="Antacid medicine or tablets">V_297</Ind0296PlsTckAnyTrtmntW>
-    </instance>
-    <instance dlg="Dialog2" description="treatment details" sub="Tree_Dialog3">
-      <Tree_Dialog3 uid="12640512">Complete</Tree_Dialog3>
-      <Ind0281HsAnyAdvcBnObtnd uid="12633856" description="Has any advice been obtained from any of the following health professional about this medical problem (Tick any which apply)" sigflag="true" listDesc="GP or Nurse Practitioner in general practice">V_283</Ind0281HsAnyAdvcBnObtnd>
-      <Ind0288WhnWsThs uid="12634112" description="When was this" sigflag="true" listDesc="2 days ago">V_290</Ind0288WhnWsThs>
-      <Ind0296PlsTckAnyTrtmntW uid="12634368" description="Please tick any treatment was given or advised (tick all that apply)" sigflag="true" listDesc="Ranitidine or Cimetidine">V_298</Ind0296PlsTckAnyTrtmntW>
-    </instance>
-  </instances>
-  <Ind0012WhrAbtsIsYrRsh uid="12639488" alttext="Rash location" description="Where abouts is your rash" sigflag="true" listDesc="right hand back of">H_111</Ind0012WhrAbtsIsYrRsh>
+  <Ind0000ArYAnswrngThsQs uid="8406784" alttext="Respondent answering on behalf of" description="Are you answering these questions for yourself - or are you answering on behalf someone else who has the medical problem" sigflag="false" listDesc="Myself">V_1</Ind0000ArYAnswrngThsQs>
+  <Ind0008WhchSxArY uid="8407296" alttext="Gender" description="Which sex are you" youtext="What is the sex of the person" listDesc="male">V_9</Ind0008WhchSxArY>
+  <AAAgeInYears uid="8500224" description="Age - years"><![CDATA[41 - 60]]></AAAgeInYears>
+  <AAAgeInMonths uid="8500480" description="Age - months">__XR__EMPTY__</AAAgeInMonths>
+  <Ind0024ArAnyOfThFllwngPrb uid="8408832" alttext="Confirmation of reason for visit" description="Are any of the following problems the main reason for this visit" listDesc="Cough or Cold"><![CDATA[Cough or Cold]]></Ind0024ArAnyOfThFllwngPrb>
+  <Symptom_Split uid="8495616">Complete</Symptom_Split>
+  <Ind0020DYGtRglrMdct uid="8408576" alttext="Obtaining regular medication through pharmacy" description="Do you get regular medication through this pharmacy" youtext="Does the person get regular medication through this pharmacy" listDesc="no">V_22</Ind0020DYGtRglrMdct>
+  <Ind3751HsThDgnssOrCsOf uid="8455936" alttext="##respdiag" description="Has the diagnosis or cause of this cough, cold or respiratory problem been identified by a medical professional" sigflag="false" listDesc="no">V_3769</Ind3751HsThDgnssOrCsOf>
+  <Ind3772aHsAnyTrtmntBnTkn uid="8508416" alttext="##resptrmt" description="Has any treatment been taken for this cough, cold or respiratory problem" sigflag="false" listDesc="yes">Value_1</Ind3772aHsAnyTrtmntBnTkn>
+  <Ind3910SncThsEpsdOfCghO uid="8463104" alttext="Symptom progression" description="Since this episode of cough or cold started what change in severity has there been" listDesc="It is neither better nor worse">V_3912</Ind3910SncThsEpsdOfCghO>
+  <Ind4314HwSvrIsThWhlIlln uid="8474624" alttext="Severity of condition" description="How severe is the whole illness at this moment" listDesc="There is a moderate problem (housebound)">V_4316</Ind4314HwSvrIsThWhlIlln>
+  <Ind0046WthnThPst4Wks uid="8501760" alttext="##advice" description="Within the past 4 weeks has any advice been given by a pharmacist,doctor or other professional about this problem.">no</Ind0046WthnThPst4Wks>
+  <Ind3919TypOfSymptm uid="8463360" description="Type of symptom" listDesc="sore throat, headache, breathing problems">V_4013|V_4031|V_4032</Ind3919TypOfSymptm>
+  <Ind4014HwSvrIsThSrThrt uid="8468480" alttext="Sore throat severity" description="How severe is the sore throat" listDesc="Present all the time">V_4016</Ind4014HwSvrIsThSrThrt>
+  <Ind4019ArThrAnyEnlrgdTnd uid="8468736" alttext="Enlarged tender lymph nodes" description="Are there any enlarged tender lymph nodes in the neck" listDesc="no">V_4021</Ind4019ArThrAnyEnlrgdTnd>
+  <Ind4023ArThrAnyWhtSptsOnT uid="8468992" alttext="Presense of pus or white membrane on tonsils or throat" description="Are there any white spots on the tonsils or white membrane at the back of the throat" listDesc="no">V_4025</Ind4023ArThrAnyWhtSptsOnT>
+  <Ind4027IsThrAnySknRsh uid="8469248" alttext="Presence of skin rash" description="Is there any skin rash" listDesc="no">V_4029</Ind4027IsThrAnySknRsh>
+  <Ind4033WhtSrtOfBrthngPrbl uid="8469504" alttext="Type of breathing problem" description="What sort of breathing problems - tick all which apply" listDesc=""></Ind4033WhtSrtOfBrthngPrbl>
+  <Ind4308InWhtSsnsArThrPr uid="8474368" alttext="Seasonal pattern" description="In what seasons are there problems - tick any which apply" listDesc=""></Ind4308InWhtSsnsArThrPr>
+  <Ind4319WhnDdThsPrblmStrt uid="8474880" alttext="Onset of symptoms" description="When did this problem start (before this time you were was feeling completely well)" youtext="When did this problem start (before this time the person was feeling completely well)" listDesc="Between 2 - 3 weeks ago">V_4324</Ind4319WhnDdThsPrblmStrt>
+  <Ind4329HwLngDdItTkTRchF uid="8475136" alttext="Time to full intensity of symptoms" description="How long did it take to reach full intensity" listDesc="1 -  6 hours">V_4332</Ind4329HwLngDdItTkTRchF>
+  <Ind3620HwOftnDYHvThsTyp uid="8449280" alttext="Frequency" description="How often do you have this type of problem" youtext="How often does the person have  this type of problem" listDesc="The last episode was between 1 - 2 years ago">V_3622</Ind3620HwOftnDYHvThsTyp>
+  <Ind3628ApprxmtlyHwMnyEpsds uid="8506112" alttext="Approximate number of episodes within past 6 months" description="Approximately how many previous problem episodes of this problem has there been in the past 6 months" listDesc="3">V_3628c</Ind3628ApprxmtlyHwMnyEpsds>
+  <Ind4339HwLngDdThPrvsEp uid="8475392" alttext="Length of symptoms" description="How long did the previous episode of the problem last" listDesc="6 - 12 hours">V_4342</Ind4339HwLngDdThPrvsEp>
+  <Ind4349DYHvAPrvsDgn uid="8475648" alttext="Previous relevant diagnoses" description="Do you have a previous diagnosis of any of the following possible respiratory related conditions" youtext="Does the person have a previous diagnosis of any of the following possible respiratory related conditions" listDesc=""></Ind4349DYHvAPrvsDgn>
+  <Ind4369DYSmkTbccOnlyF uid="8476160" alttext="Whether tobacco currently smoked" description="Do you smoke tobacco" youtext="Does the person smoke" listDesc="yes">V_4370</Ind4369DYSmkTbccOnlyF>
+  <Ind4373aHwMnyCig uid="8523264" description="How many cigarettes per day" sigflag="false" listDesc="0">0</Ind4373aHwMnyCig>
+  <Ind4373aHwMnyGrmsOfTab uid="8523520" description="How many grams of tobacco per week" sigflag="false" listDesc="less than 25"><![CDATA[less than 25]]></Ind4373aHwMnyGrmsOfTab>
+  <Ind45373aIsThsRlld uid="8508672" description="Is this rolled into own rolled cigarettes or smoked in a pipe">Value_1</Ind45373aIsThsRlld>
+  <Ind4378ArYTryngTStpSmkn uid="8476928" alttext="Whether smoking cessation being attempted at present" description="Are you trying to stop smoking at present" youtext="Is the person trying to stop smoking at present" listDesc="yes">V_4379</Ind4378ArYTryngTStpSmkn>
+  <Ind0131ArAnyDvcsOrMdct uid="8414720" alttext="Whether any smoking cessation devices or medication used" description="Are any devices or medication being used to help stop smoking" listDesc="yes">V_132</Ind0131ArAnyDvcsOrMdct>
+  <Ind0133WhchOfThFllwngDvc uid="8414976" alttext="Smoking cessation support used" description="Which of the following devices or medication are being used - tick all which apply" listDesc="e - cigarettes">V_134</Ind0133WhchOfThFllwngDvc>
+  <Ind0065DYHvAnyOfThFllw uid="8410624" alttext="Significant chronic conditions" description="Do you have any of the following conditions" youtext="Does the person have any of the following conditions" listDesc=""></Ind0065DYHvAnyOfThFllw>
+  <Ind0082RegularMedication uid="8502528" alttext="##regular" description="Have you taken any regular medication taken for different reasons than to treat Cough or Cold within the last 7 days" sigflag="false" youtext="Has the person taken any regular medication  taken for different reasons than to treat {Ind0024ArAnyOfThFllwngPrb} within the last 7 days">no</Ind0082RegularMedication>
+  <Ind0106HsThrBnAnySgnfc uid="8412928" alttext="Whether significant weight loss" description="Has there been any significant weight loss" listDesc="no">V_112</Ind0106HsThrBnAnySgnfc>
+  <Ind0084ArThrAnyKnwnOrSspc uid="8411648" alttext="##allergic" description="Are there any known or suspected allergies or other bad reactions to medicines or other treatments" sigflag="false" listDesc="no">V_98</Ind0084ArThrAnyKnwnOrSspc>
 </data>

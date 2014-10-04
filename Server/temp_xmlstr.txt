@@ -11,15 +11,19 @@ Array
 
     [1] => Array
         (
-            [tag] => TREE_DIALOG2
+            [tag] => IND0000ARYANSWRNGTHSQS
             [type] => complete
             [level] => 2
             [attributes] => Array
                 (
-                    [UID] => 12638464
+                    [UID] => 8406784
+                    [ALTTEXT] => Respondent answering on behalf of
+                    [DESCRIPTION] => Are you answering these questions for yourself - or are you answering on behalf someone else who has the medical problem
+                    [SIGFLAG] => false
+                    [LISTDESC] => Myself
                 )
 
-            [value] => Complete
+            [value] => V_1
         )
 
     [2] => Array
@@ -33,18 +37,19 @@ Array
 
     [3] => Array
         (
-            [tag] => USER
+            [tag] => IND0008WHCHSXARY
             [type] => complete
             [level] => 2
             [attributes] => Array
                 (
-                    [UID] => 12638720
-                    [ALTTEXT] => Answerer
-                    [DESCRIPTION] => On whos behalf are you answering
-                    [YOUTEXT] => On whos behalf are you answering
+                    [UID] => 8407296
+                    [ALTTEXT] => Gender
+                    [DESCRIPTION] => Which sex are you
+                    [YOUTEXT] => What is the sex of the person
+                    [LISTDESC] => male
                 )
 
-            [value] => Myself
+            [value] => V_9
         )
 
     [4] => Array
@@ -58,18 +63,16 @@ Array
 
     [5] => Array
         (
-            [tag] => IND0000HWOLDISTHPTNT
+            [tag] => AAAGEINYEARS
             [type] => complete
             [level] => 2
             [attributes] => Array
                 (
-                    [UID] => 12596736
-                    [ALTTEXT] => Years old
-                    [DESCRIPTION] => How many years old are you
-                    [YOUTEXT] => How many years old are you
+                    [UID] => 8500224
+                    [DESCRIPTION] => Age - years
                 )
 
-            [value] => 55
+            [value] => 41 - 60
         )
 
     [6] => Array
@@ -83,15 +86,16 @@ Array
 
     [7] => Array
         (
-            [tag] => TREE_DIALOG1
+            [tag] => AAAGEINMONTHS
             [type] => complete
             [level] => 2
             [attributes] => Array
                 (
-                    [UID] => 12637184
+                    [UID] => 8500480
+                    [DESCRIPTION] => Age - months
                 )
 
-            [value] => Complete
+            [value] => __XR__EMPTY__
         )
 
     [8] => Array
@@ -105,19 +109,18 @@ Array
 
     [9] => Array
         (
-            [tag] => IND0113ISHVNGINDGSTNANUNC
+            [tag] => IND0024ARANYOFTHFLLWNGPRB
             [type] => complete
             [level] => 2
             [attributes] => Array
                 (
-                    [UID] => 12623616
-                    [DESCRIPTION] => Is having indigestion a common problem for you
-                    [SIGFLAG] => true
-                    [YOUTEXT] => Is having indigestion a common problem for you
-                    [LISTDESC] => yes it is uncommon
+                    [UID] => 8408832
+                    [ALTTEXT] => Confirmation of reason for visit
+                    [DESCRIPTION] => Are any of the following problems the main reason for this visit
+                    [LISTDESC] => Cough or Cold
                 )
 
-            [value] => V_114
+            [value] => Cough or Cold
         )
 
     [10] => Array
@@ -131,20 +134,15 @@ Array
 
     [11] => Array
         (
-            [tag] => IND0152DSTHPTNTFLDZZYO
+            [tag] => SYMPTOM_SPLIT
             [type] => complete
             [level] => 2
             [attributes] => Array
                 (
-                    [UID] => 12625920
-                    [ALTTEXT] => Dizzy or Faint
-                    [DESCRIPTION] => Do you feel dizzy or faint
-                    [SIGFLAG] => true
-                    [YOUTEXT] => Do you feel dizzy or faint
-                    [LISTDESC] => yes
+                    [UID] => 8495616
                 )
 
-            [value] => V_153
+            [value] => Complete
         )
 
     [12] => Array
@@ -158,323 +156,632 @@ Array
 
     [13] => Array
         (
-            [tag] => INSTANCES
-            [type] => open
+            [tag] => IND0020DYGTRGLRMDCT
+            [type] => complete
             [level] => 2
             [attributes] => Array
                 (
-                    [DLGID] => 1
+                    [UID] => 8408576
+                    [ALTTEXT] => Obtaining regular medication through pharmacy
+                    [DESCRIPTION] => Do you get regular medication through this pharmacy
+                    [YOUTEXT] => Does the person get regular medication through this pharmacy
+                    [LISTDESC] => no
                 )
 
-            [value] => 
-    
+            [value] => V_22
         )
 
     [14] => Array
         (
-            [tag] => INSTANCE
-            [type] => open
-            [level] => 3
-            [attributes] => Array
-                (
-                    [DLG] => Dialog2
-                    [DESCRIPTION] => treatment details
-                    [SUB] => Tree_Dialog3
-                )
-
+            [tag] => DATA
             [value] => 
-      
+  
+            [type] => cdata
+            [level] => 1
         )
 
     [15] => Array
         (
-            [tag] => TREE_DIALOG3
+            [tag] => IND3751HSTHDGNSSORCSOF
             [type] => complete
-            [level] => 4
+            [level] => 2
             [attributes] => Array
                 (
-                    [UID] => 12640512
+                    [UID] => 8455936
+                    [ALTTEXT] => ##respdiag
+                    [DESCRIPTION] => Has the diagnosis or cause of this cough, cold or respiratory problem been identified by a medical professional
+                    [SIGFLAG] => false
+                    [LISTDESC] => no
                 )
 
-            [value] => Complete
+            [value] => V_3769
         )
 
     [16] => Array
         (
-            [tag] => INSTANCE
+            [tag] => DATA
             [value] => 
-      
+  
             [type] => cdata
-            [level] => 3
+            [level] => 1
         )
 
     [17] => Array
         (
-            [tag] => IND0281HSANYADVCBNOBTND
+            [tag] => IND3772AHSANYTRTMNTBNTKN
             [type] => complete
-            [level] => 4
+            [level] => 2
             [attributes] => Array
                 (
-                    [UID] => 12633856
-                    [DESCRIPTION] => Has any advice been obtained from any of the following health professional about this medical problem (Tick any which apply)
-                    [SIGFLAG] => true
-                    [LISTDESC] => Pharmacist
+                    [UID] => 8508416
+                    [ALTTEXT] => ##resptrmt
+                    [DESCRIPTION] => Has any treatment been taken for this cough, cold or respiratory problem
+                    [SIGFLAG] => false
+                    [LISTDESC] => yes
                 )
 
-            [value] => V_282
+            [value] => Value_1
         )
 
     [18] => Array
         (
-            [tag] => INSTANCE
+            [tag] => DATA
             [value] => 
-      
+  
             [type] => cdata
-            [level] => 3
+            [level] => 1
         )
 
     [19] => Array
         (
-            [tag] => IND0288WHNWSTHS
+            [tag] => IND3910SNCTHSEPSDOFCGHO
             [type] => complete
-            [level] => 4
+            [level] => 2
             [attributes] => Array
                 (
-                    [UID] => 12634112
-                    [DESCRIPTION] => When was this
-                    [SIGFLAG] => true
-                    [LISTDESC] => Within the last day
+                    [UID] => 8463104
+                    [ALTTEXT] => Symptom progression
+                    [DESCRIPTION] => Since this episode of cough or cold started what change in severity has there been
+                    [LISTDESC] => It is neither better nor worse
                 )
 
-            [value] => V_289
+            [value] => V_3912
         )
 
     [20] => Array
         (
-            [tag] => INSTANCE
+            [tag] => DATA
             [value] => 
-      
+  
             [type] => cdata
-            [level] => 3
+            [level] => 1
         )
 
     [21] => Array
         (
-            [tag] => IND0296PLSTCKANYTRTMNTW
+            [tag] => IND4314HWSVRISTHWHLILLN
             [type] => complete
-            [level] => 4
+            [level] => 2
             [attributes] => Array
                 (
-                    [UID] => 12634368
-                    [DESCRIPTION] => Please tick any treatment was given or advised (tick all that apply)
-                    [SIGFLAG] => true
-                    [LISTDESC] => Antacid medicine or tablets
+                    [UID] => 8474624
+                    [ALTTEXT] => Severity of condition
+                    [DESCRIPTION] => How severe is the whole illness at this moment
+                    [LISTDESC] => There is a moderate problem (housebound)
                 )
 
-            [value] => V_297
+            [value] => V_4316
         )
 
     [22] => Array
         (
-            [tag] => INSTANCE
+            [tag] => DATA
             [value] => 
-    
+  
             [type] => cdata
-            [level] => 3
+            [level] => 1
         )
 
     [23] => Array
         (
-            [tag] => INSTANCE
-            [type] => close
-            [level] => 3
+            [tag] => IND0046WTHNTHPST4WKS
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8501760
+                    [ALTTEXT] => ##advice
+                    [DESCRIPTION] => Within the past 4 weeks has any advice been given by a pharmacist,doctor or other professional about this problem.
+                )
+
+            [value] => no
         )
 
     [24] => Array
         (
-            [tag] => INSTANCES
+            [tag] => DATA
             [value] => 
-    
+  
             [type] => cdata
-            [level] => 2
+            [level] => 1
         )
 
     [25] => Array
         (
-            [tag] => INSTANCE
-            [type] => open
-            [level] => 3
+            [tag] => IND3919TYPOFSYMPTM
+            [type] => complete
+            [level] => 2
             [attributes] => Array
                 (
-                    [DLG] => Dialog2
-                    [DESCRIPTION] => treatment details
-                    [SUB] => Tree_Dialog3
+                    [UID] => 8463360
+                    [DESCRIPTION] => Type of symptom
+                    [LISTDESC] => sore throat, headache, breathing problems
                 )
 
-            [value] => 
-      
+            [value] => V_4013|V_4031|V_4032
         )
 
     [26] => Array
         (
-            [tag] => TREE_DIALOG3
-            [type] => complete
-            [level] => 4
-            [attributes] => Array
-                (
-                    [UID] => 12640512
-                )
-
-            [value] => Complete
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
         )
 
     [27] => Array
         (
-            [tag] => INSTANCE
-            [value] => 
-      
-            [type] => cdata
-            [level] => 3
+            [tag] => IND4014HWSVRISTHSRTHRT
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8468480
+                    [ALTTEXT] => Sore throat severity
+                    [DESCRIPTION] => How severe is the sore throat
+                    [LISTDESC] => Present all the time
+                )
+
+            [value] => V_4016
         )
 
     [28] => Array
         (
-            [tag] => IND0281HSANYADVCBNOBTND
-            [type] => complete
-            [level] => 4
-            [attributes] => Array
-                (
-                    [UID] => 12633856
-                    [DESCRIPTION] => Has any advice been obtained from any of the following health professional about this medical problem (Tick any which apply)
-                    [SIGFLAG] => true
-                    [LISTDESC] => GP or Nurse Practitioner in general practice
-                )
-
-            [value] => V_283
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
         )
 
     [29] => Array
         (
-            [tag] => INSTANCE
-            [value] => 
-      
-            [type] => cdata
-            [level] => 3
+            [tag] => IND4019ARTHRANYENLRGDTND
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8468736
+                    [ALTTEXT] => Enlarged tender lymph nodes
+                    [DESCRIPTION] => Are there any enlarged tender lymph nodes in the neck
+                    [LISTDESC] => no
+                )
+
+            [value] => V_4021
         )
 
     [30] => Array
         (
-            [tag] => IND0288WHNWSTHS
-            [type] => complete
-            [level] => 4
-            [attributes] => Array
-                (
-                    [UID] => 12634112
-                    [DESCRIPTION] => When was this
-                    [SIGFLAG] => true
-                    [LISTDESC] => 2 days ago
-                )
-
-            [value] => V_290
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
         )
 
     [31] => Array
         (
-            [tag] => INSTANCE
-            [value] => 
-      
-            [type] => cdata
-            [level] => 3
+            [tag] => IND4023ARTHRANYWHTSPTSONT
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8468992
+                    [ALTTEXT] => Presense of pus or white membrane on tonsils or throat
+                    [DESCRIPTION] => Are there any white spots on the tonsils or white membrane at the back of the throat
+                    [LISTDESC] => no
+                )
+
+            [value] => V_4025
         )
 
     [32] => Array
         (
-            [tag] => IND0296PLSTCKANYTRTMNTW
-            [type] => complete
-            [level] => 4
-            [attributes] => Array
-                (
-                    [UID] => 12634368
-                    [DESCRIPTION] => Please tick any treatment was given or advised (tick all that apply)
-                    [SIGFLAG] => true
-                    [LISTDESC] => Ranitidine or Cimetidine
-                )
-
-            [value] => V_298
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
         )
 
     [33] => Array
         (
-            [tag] => INSTANCE
-            [value] => 
-    
-            [type] => cdata
-            [level] => 3
-        )
-
-    [34] => Array
-        (
-            [tag] => INSTANCE
-            [type] => close
-            [level] => 3
-        )
-
-    [35] => Array
-        (
-            [tag] => INSTANCES
-            [value] => 
-  
-            [type] => cdata
-            [level] => 2
-        )
-
-    [36] => Array
-        (
-            [tag] => INSTANCES
-            [type] => close
-            [level] => 2
-        )
-
-    [37] => Array
-        (
-            [tag] => DATA
-            [value] => 
-  
-            [type] => cdata
-            [level] => 1
-        )
-
-    [38] => Array
-        (
-            [tag] => IND0012WHRABTSISYRRSH
+            [tag] => IND4027ISTHRANYSKNRSH
             [type] => complete
             [level] => 2
             [attributes] => Array
                 (
-                    [UID] => 12639488
-                    [ALTTEXT] => Rash location
-                    [DESCRIPTION] => Where abouts is your rash
-                    [SIGFLAG] => true
-                    [LISTDESC] => right hand back of
+                    [UID] => 8469248
+                    [ALTTEXT] => Presence of skin rash
+                    [DESCRIPTION] => Is there any skin rash
+                    [LISTDESC] => no
                 )
 
-            [value] => H_111
+            [value] => V_4029
+        )
+
+    [34] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [35] => Array
+        (
+            [tag] => IND4033WHTSRTOFBRTHNGPRBL
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8469504
+                    [ALTTEXT] => Type of breathing problem
+                    [DESCRIPTION] => What sort of breathing problems - tick all which apply
+                    [LISTDESC] => 
+                )
+
+        )
+
+    [36] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [37] => Array
+        (
+            [tag] => IND4308INWHTSSNSARTHRPR
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8474368
+                    [ALTTEXT] => Seasonal pattern
+                    [DESCRIPTION] => In what seasons are there problems - tick any which apply
+                    [LISTDESC] => 
+                )
+
+        )
+
+    [38] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
         )
 
     [39] => Array
         (
-            [tag] => DATA
-            [value] => 
+            [tag] => IND4319WHNDDTHSPRBLMSTRT
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8474880
+                    [ALTTEXT] => Onset of symptoms
+                    [DESCRIPTION] => When did this problem start (before this time you were was feeling completely well)
+                    [YOUTEXT] => When did this problem start (before this time the person was feeling completely well)
+                    [LISTDESC] => Between 2 - 3 weeks ago
+                )
 
-            [type] => cdata
-            [level] => 1
+            [value] => V_4324
         )
 
     [40] => Array
         (
             [tag] => DATA
-            [type] => close
+            [value] => 
+  
+            [type] => cdata
             [level] => 1
         )
 
-)
+    [41] => Array
+        (
+            [tag] => IND4329HWLNGDDITTKTRCHF
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8475136
+                    [ALTTEXT] => Time to full intensity of symptoms
+                    [DESCRIPTION] => How long did it take to reach full intensity
+                    [LISTDESC] => 1 -  6 hours
+                )
+
+            [value] => V_4332
+        )
+
+    [42] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [43] => Array
+        (
+            [tag] => IND3620HWOFTNDYHVTHSTYP
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8449280
+                    [ALTTEXT] => Frequency
+                    [DESCRIPTION] => How often do you have this type of problem
+                    [YOUTEXT] => How often does the person have  this type of problem
+                    [LISTDESC] => The last episode was between 1 - 2 years ago
+                )
+
+            [value] => V_3622
+        )
+
+    [44] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [45] => Array
+        (
+            [tag] => IND3628APPRXMTLYHWMNYEPSDS
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8506112
+                    [ALTTEXT] => Approximate number of episodes within past 6 months
+                    [DESCRIPTION] => Approximately how many previous problem episodes of this problem has there been in the past 6 months
+                    [LISTDESC] => 3
+                )
+
+            [value] => V_3628c
+        )
+
+    [46] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [47] => Array
+        (
+            [tag] => IND4339HWLNGDDTHPRVSEP
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8475392
+                    [ALTTEXT] => Length of symptoms
+                    [DESCRIPTION] => How long did the previous episode of the problem last
+                    [LISTDESC] => 6 - 12 hours
+                )
+
+            [value] => V_4342
+        )
+
+    [48] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [49] => Array
+        (
+            [tag] => IND4349DYHVAPRVSDGN
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8475648
+                    [ALTTEXT] => Previous relevant diagnoses
+                    [DESCRIPTION] => Do you have a previous diagnosis of any of the following possible respiratory related conditions
+                    [YOUTEXT] => Does the person have a previous diagnosis of any of the following possible respiratory related conditions
+                    [LISTDESC] => 
+                )
+
+        )
+
+    [50] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [51] => Array
+        (
+            [tag] => IND4369DYSMKTBCCONLYF
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8476160
+                    [ALTTEXT] => Whether tobacco currently smoked
+                    [DESCRIPTION] => Do you smoke tobacco
+                    [YOUTEXT] => Does the person smoke
+                    [LISTDESC] => yes
+                )
+
+            [value] => V_4370
+        )
+
+    [52] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [53] => Array
+        (
+            [tag] => IND4373AHWMNYCIG
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8523264
+                    [DESCRIPTION] => How many cigarettes per day
+                    [SIGFLAG] => false
+                    [LISTDESC] => 0
+                )
+
+            [value] => 0
+        )
+
+    [54] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [55] => Array
+        (
+            [tag] => IND4373AHWMNYGRMSOFTAB
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8523520
+                    [DESCRIPTION] => How many grams of tobacco per week
+                    [SIGFLAG] => false
+                    [LISTDESC] => less than 25
+                )
+
+            [value] => less than 25
+        )
+
+    [56] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [57] => Array
+        (
+            [tag] => IND45373AISTHSRLLD
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8508672
+                    [DESCRIPTION] => Is this rolled into own rolled cigarettes or smoked in a pipe
+                )
+
+            [value] => Value_1
+        )
+
+    [58] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [59] => Array
+        (
+            [tag] => IND4378ARYTRYNGTSTPSMKN
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8476928
+                    [ALTTEXT] => Whether smoking cessation being attempted at present
+                    [DESCRIPTION] => Are you trying to stop smoking at present
+                    [YOUTEXT] => Is the person trying to stop smoking at present
+                    [LISTDESC] => yes
+                )
+
+            [value] => V_4379
+        )
+
+    [60] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [61] => Array
+        (
+            [tag] => IND0131ARANYDVCSORMDCT
+            [type] => complete
+            [level] => 2
+            [attributes] => Array
+                (
+                    [UID] => 8414720
+                    [ALTTEXT] => Whether any smoking cessation devices or medication used
+                    [DESCRIPTION] => Are any devices or medication being used to help stop smoking
+                    [LISTDESC] => yes
+                )
+
+            [value] => V_132
+        )
+
+    [62] => Array
+        (
+            [tag] => DATA
+            [value] => 
+  
+            [type] => cdata
+            [level] => 1
+        )
+
+    [63] => Array
+        (
+            [tag] => IND0133WHCHOFTHFLLWNGDVC
+            [type] => complete
+       

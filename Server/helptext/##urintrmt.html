@@ -1,0 +1,30 @@
+<p>The patient has answered that some treatment has been tried for the problem</p>
+
+<ol>
+  <li><p style="margin-bottom: 0.35cm; line-height: 100%">What treatment has been tried for this problem</p>
+  <li><p style="margin-bottom: 0.35cm; line-height: 100%">How many tablets or treatments for each type have been taken in the last 24 hours</p>
+  <li><p style="margin-bottom: 0.35cm; line-height: 100%">Which (if any) treatment that has been taken for this condition beforehand which seems to have been MOST effective</p>
+  <li><p style="margin-bottom: 0.35cm; line-height: 100%">Which (if any) treatment that has been taken for this condition before seems to have been LEAST effective</p>
+</ol>
+
+<div id="trtmntDiv" style="display: none;">
+<input id="dispTxt" type="button" value="Hide details" onclick="toggle('trtmntDiv');" />
+<p>What treatment has been tried for this problem</p>
+<p>The following categories may be helpful with prompting the patient</p>
+
+<p class=ind1>Antibiotics</p>
+<p class=ind1>Cystopurin_Potassium_Citrate</p>
+<p class=ind1>Tamsulosin</p>
+<p class=ind1>Solifenacin</p>
+<p class=ind1>Other_treatment_details</p>
+
+<p>For each treatment how many tablets have been taken, or topical treatments applied in the past 24 hours</p>
+
+<p class=ind1>Antibiotics</p>
+<p class=ind2>Trimethoprim</p>
+<p class=ind2>Nitrofurantoin</p>
+<p class=ind2>Amoxicillin</p>
+<p class=ind2>Any_other_antibiotic</p>
+</div>
+<br />
+<input id="dispTxt" type="button" value="Show/Hide More detailed assistance for each of the above questions" onclick="toggle('trtmntDiv');" />

@@ -1,1 +1,3 @@
-[20-May-2014 15:00:35 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/eldwick/public_html/files/rogo/readxml.php on line 76
+[22-Sep-2014 15:26:01 Europe/London] PHP Parse error:  syntax error, unexpected '{' in /home/eldwick/public_html/files/rogo/readxml.php on line 84
+[22-Sep-2014 15:29:21 Europe/London] PHP Parse error:  syntax error, unexpected '{' in /home/eldwick/public_html/files/rogo/readxml.php on line 84
+[22-Sep-2014 21:19:00 Europe/London] PHP Fatal error:  [] operator not supported for strings in /home/eldwick/public_html/files/rogo/readxml.php on line 72

@@ -15,12 +15,11 @@ else {
   for ($i = 0; ($i < 100) && $todo; $i++) {
     echo $i;
     $wordpair = wordgen(); //defined in common.inc
-    $words = $wordpair[0].$wordpair[1];
-    $q = "SELECT id FROM consultation WHERE date = '".$date."' AND id = '".$words."'";
+    $q = "SELECT id FROM consultation WHERE date = '".$date."' AND word1 = '".$wordpair[0]."' AND word2 = '".$wordpair[1]."'";
     $res = mysqli_query($dbh, $q);
     if (mysqli_num_rows($res) == 0) {
-      $q = "INSERT INTO consultation (id, date, report) VALUES
-          ('".$words."', '".$date."', '".$_POST['report']."')";
+      $q = "INSERT INTO consultation (word1, word2, date, report) VALUES
+          ('".$wordpair[0]."', '".$wordpair[1]."', '".$date."', '".$_POST['report']."')";
       $r_val = json_encode(array('word1'=>$wordpair[0], 'word2'=>$wordpair[1], 'date'=>$date))
       $todo = false
     }

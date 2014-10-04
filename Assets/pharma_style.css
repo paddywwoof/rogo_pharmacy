@@ -1,0 +1,123 @@
+.ui-widget .ui-widget {
+	font-size: 19px;
+}
+
+.dropdown-item {
+	display: flex;
+	cursor: default;
+	white-space: normal;
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	overflow: hidden;
+	border: 1px solid #bbb;
+	margin-bottom: 6px;
+	margin-right: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 3px 3px 1px 0px #ccc;
+	-webkit-box-shadow: 3px 3px 1px 0px #ccc;
+	box-shadow: 3px 3px 1px 0px #ccc;
+}
+.listbox-cell{
+	white-space: normal;
+}
+.dropdown-item:hover{
+	background-color: rgba(0, 0, 255, 0.2);
+	color: #000 !important;
+}
+.dropdown-item .checkbox{
+	margin-top: 3px;
+	flex-shrink: 0;
+}
+.xrui-checkbox.dropdown-main{
+	border: none;
+}
+.dropdown-item-wrapsel{
+	background-color: #51538B;
+	color: #eee;
+	-moz-box-shadow: 3px 3px 1px 0px #557;
+	-webkit-box-shadow: 3px 3px 1px 0px #557;
+	box-shadow: 3px 3px 1px 0px #557;
+	border-color: #445;
+}
+.ui-widget .ui-widget.pharma-title1{
+	border-radius: 6px;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-top: 6px;
+}
+.pharma-title2{
+	color: #444;
+	text-align: right !important;
+}
+.pharma-question{
+	color: #444;
+}
+.pharm-imgtitle{
+	text-align: center !important;
+	background-color: #51538B;
+	color: #eee;
+	border-radius: 4px;
+	padding-top: 2px;
+}
+.xrui-visuallist-item-caption{
+	cursor: default;
+}
+#xrui .xrui-visuallist-item-selected{
+	background-color: #51538B;
+	color: #eee;
+	-moz-box-shadow: 3px 3px 1px 0px #557;
+	-webkit-box-shadow: 3px 3px 1px 0px #557;
+	box-shadow: 3px 3px 1px 0px #557;
+	border-color: #445;
+}
+#ageinmonths .xrui-visuallist-item{
+}
+.xrui-panels-page{
+	border: none;
+}
+.xrui-panel-expander{
+	margin-top: 5px;
+	cursor: pointer;
+}
+.xrui-panels-reanswer-header, .xrui-panels-title{
+	cursor: default;
+	padding-left: 8px;
+}
+.pharm-next-img{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(next.png);
+	margin-left: 4px;
+}
+.pharm-back-img{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(back.png);
+	margin-right: 4px;
+}
+#control1 .xrui-hotspot-border{
+	background-color: rgba(255, 0, 0, 0.4);
+	border: none;
+}
+.pharm-poweredby{
+	font-size: 10px;
+}
+#rash_dialog_info_label{
+	z-index: 1000;
+	background-color: rgba(0, 0, 64, 0.7);
+	padding: 6px;
+	border-radius: 6px;
+	box-shadow: 5px 5px rgba(0, 0, 64, 0.9);
+	cursor: default;
+	color: #eee !important;
+}
+#rash_dialog_show_text{
+	background-color: #003;
+	padding: 4px 0;
+	border-radius: 2px;
+}
